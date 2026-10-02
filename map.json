@@ -1,0 +1,309 @@
+{
+  "mapName": "Map",
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Room 1 (start room)",
+      "description": "",
+      "alternativeDescription": "",
+      "objects": [],
+      "connections": {
+        "north": "0",
+        "east": "0",
+        "south": "2",
+        "west": "0",
+        "up": "0",
+        "down": "0"
+      },
+      "gridPosition": {
+        "x": 1,
+        "y": 0
+      }
+    },
+    {
+      "id": 2,
+      "name": "Room 2",
+      "description": "",
+      "alternativeDescription": "",
+      "objects": [],
+      "connections": {
+        "north": "1",
+        "east": "0",
+        "south": "0",
+        "west": "3",
+        "up": "0",
+        "down": "0"
+      },
+      "gridPosition": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    {
+      "id": 3,
+      "name": "Room 3",
+      "description": "",
+      "alternativeDescription": "",
+      "objects": [],
+      "connections": {
+        "north": "4",
+        "east": "2",
+        "south": "6",
+        "west": "0",
+        "up": "0",
+        "down": "0"
+      },
+      "gridPosition": {
+        "x": 0,
+        "y": 1
+      }
+    },
+    {
+      "id": 4,
+      "name": "Room 4",
+      "description": "",
+      "alternativeDescription": "",
+      "objects": [],
+      "connections": {
+        "north": "0",
+        "east": "0",
+        "south": "3",
+        "west": "0",
+        "up": "0",
+        "down": "0"
+      },
+      "gridPosition": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": 5,
+      "name": "Room 5",
+      "description": "",
+      "alternativeDescription": "",
+      "objects": [],
+      "connections": {
+        "north": "0",
+        "east": "9",
+        "south": "8",
+        "west": "6",
+        "up": "0",
+        "down": "0"
+      },
+      "gridPosition": {
+        "x": 1,
+        "y": 2
+      }
+    },
+    {
+      "id": 6,
+      "name": "Room 6",
+      "description": "",
+      "alternativeDescription": "",
+      "objects": [],
+      "connections": {
+        "north": "3",
+        "east": "5",
+        "south": "0",
+        "west": "0",
+        "up": "0",
+        "down": "0"
+      },
+      "gridPosition": {
+        "x": 0,
+        "y": 2
+      }
+    },
+    {
+      "id": 7,
+      "name": "Room 7",
+      "description": "",
+      "alternativeDescription": "",
+      "objects": [],
+      "connections": {
+        "north": "0",
+        "east": "8",
+        "south": "0",
+        "west": "0",
+        "up": "0",
+        "down": "0"
+      },
+      "gridPosition": {
+        "x": 0,
+        "y": 3
+      }
+    },
+    {
+      "id": 8,
+      "name": "Room 8",
+      "description": "",
+      "alternativeDescription": "",
+      "objects": [],
+      "connections": {
+        "north": "5",
+        "east": "0",
+        "south": "0",
+        "west": "7",
+        "up": "0",
+        "down": "0"
+      },
+      "gridPosition": {
+        "x": 1,
+        "y": 3
+      }
+    },
+    {
+      "id": 9,
+      "name": "Room 9",
+      "description": "",
+      "alternativeDescription": "",
+      "objects": [],
+      "connections": {
+        "north": "13",
+        "east": "10",
+        "south": "0",
+        "west": "5",
+        "up": "0",
+        "down": "0"
+      },
+      "gridPosition": {
+        "x": 2,
+        "y": 2
+      }
+    },
+    {
+      "id": 10,
+      "name": "Room 10",
+      "description": "",
+      "alternativeDescription": "",
+      "objects": [],
+      "connections": {
+        "north": "0",
+        "east": "0",
+        "south": "11",
+        "west": "9",
+        "up": "0",
+        "down": "0"
+      },
+      "gridPosition": {
+        "x": 3,
+        "y": 2
+      }
+    },
+    {
+      "id": 11,
+      "name": "Room 11",
+      "description": "",
+      "alternativeDescription": "",
+      "objects": [],
+      "connections": {
+        "north": "10",
+        "east": "0",
+        "south": "0",
+        "west": "12",
+        "up": "0",
+        "down": "0"
+      },
+      "gridPosition": {
+        "x": 3,
+        "y": 3
+      }
+    },
+    {
+      "id": 12,
+      "name": "Room 12",
+      "description": "",
+      "alternativeDescription": "",
+      "objects": [],
+      "connections": {
+        "north": "0",
+        "east": "11",
+        "south": "0",
+        "west": "0",
+        "up": "0",
+        "down": "0"
+      },
+      "gridPosition": {
+        "x": 2,
+        "y": 3
+      }
+    },
+    {
+      "id": 13,
+      "name": "Room 13",
+      "description": "",
+      "alternativeDescription": "",
+      "objects": [],
+      "connections": {
+        "north": "14",
+        "east": "16",
+        "south": "9",
+        "west": "0",
+        "up": "0",
+        "down": "0"
+      },
+      "gridPosition": {
+        "x": 2,
+        "y": 1
+      }
+    },
+    {
+      "id": 14,
+      "name": "Room 14",
+      "description": "",
+      "alternativeDescription": "",
+      "objects": [],
+      "connections": {
+        "north": "0",
+        "east": "15",
+        "south": "13",
+        "west": "0",
+        "up": "0",
+        "down": "0"
+      },
+      "gridPosition": {
+        "x": 2,
+        "y": 0
+      }
+    },
+    {
+      "id": 15,
+      "name": "Room 15",
+      "description": "",
+      "alternativeDescription": "",
+      "objects": [],
+      "connections": {
+        "north": "0",
+        "east": "0",
+        "south": "16",
+        "west": "14",
+        "up": "0",
+        "down": "0"
+      },
+      "gridPosition": {
+        "x": 3,
+        "y": 0
+      }
+    },
+    {
+      "id": 16,
+      "name": "Room 16",
+      "description": "",
+      "alternativeDescription": "",
+      "objects": [],
+      "connections": {
+        "north": "15",
+        "east": "0",
+        "south": "0",
+        "west": "13",
+        "up": "0",
+        "down": "0"
+      },
+      "gridPosition": {
+        "x": 3,
+        "y": 1
+      }
+    }
+  ]
+}
