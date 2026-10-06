@@ -48,7 +48,7 @@
       "connections": {
         "north": 4,
         "east": 2,
-        "south": 6,
+        "south": 5,
         "west": 0,
         "up": 0,
         "down": 0
@@ -80,50 +80,69 @@
     {
       "id": 5,
       "name": "Room 5",
-      "description": "An intersection going in 3 different ways, east, south and west.",
+      "description": "A corner going north and east.",
       "alternativeDescription": "",
       "objects": [],
       "connections": {
-        "north": 0,
-        "east": 9,
-        "south": 8,
-        "west": 6,
+        "north": 3,
+        "east": 6,
+        "south": 0,
+        "west": 0,
         "up": 0,
         "down": 0
       },
       "gridPosition": {
-        "x": 1,
+        "x": 0,
         "y": 2
       }
     },
     {
       "id": 6,
       "name": "Room 6",
-      "description": "A corner going north and east.",
+      "description": "An intersection going in 3 different ways, east, south and west.",
       "alternativeDescription": "",
       "objects": [],
       "connections": {
-        "north": 3,
-        "east": 5,
-        "south": 0,
-        "west": 0,
+        "north": 0,
+        "east": 9,
+        "south": 7,
+        "west": 5,
         "up": 0,
         "down": 0
       },
       "gridPosition": {
-        "x": 0,
+        "x": 1,
         "y": 2
       }
     },
     {
       "id": 7,
       "name": "Room 7",
+      "description": "A corner going north and west.",
+      "alternativeDescription": "",
+      "objects": [],
+      "connections": {
+        "north": 6,
+        "east": 0,
+        "south": 0,
+        "west": 8,
+        "up": 0,
+        "down": 0
+      },
+      "gridPosition": {
+        "x": 1,
+        "y": 3
+      }
+    },
+    {
+      "id": 8,
+      "name": "Room 8",
       "description": "A dead end only going east.",
       "alternativeDescription": "",
       "objects": [],
       "connections": {
         "north": 0,
-        "east": 8,
+        "east": 7,
         "south": 0,
         "west": 0,
         "up": 0,
@@ -131,25 +150,6 @@
       },
       "gridPosition": {
         "x": 0,
-        "y": 3
-      }
-    },
-    {
-      "id": 8,
-      "name": "Room 8",
-      "description": "A corner going north and west.",
-      "alternativeDescription": "",
-      "objects": [],
-      "connections": {
-        "north": 5,
-        "east": 0,
-        "south": 0,
-        "west": 7,
-        "up": 0,
-        "down": 0
-      },
-      "gridPosition": {
-        "x": 1,
         "y": 3
       }
     },
@@ -163,7 +163,7 @@
         "north": 13,
         "east": 10,
         "south": 0,
-        "west": 5,
+        "west": 6,
         "up": 0,
         "down": 0
       },
