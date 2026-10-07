@@ -9,7 +9,7 @@ import threading
 # ============================================================
 
 name = "Backrooms: Command"
-version = "1.2.0"
+version = "1.3.0"
 
 # ============================================================
 # DEV/TESTING VARIABLES
@@ -170,7 +170,8 @@ def gameInput():
         os.system('cls' if os.name == 'nt' else 'clear')
         startupMessage()
         generationMessage()
-        print("One day, you noclip out of reality. When you open your eyes again, you're lying on the damp carpet of a place you don't recognize.\n")
+        print("One day, you noclip out of reality. When you open your eyes again, you're lying on the damp carpet of a place you don't recognize.")
+        print("You stand up wondering where you are, as you look around you see that you are in a room leading south.\n")
         print(data["rooms"][roomID-1]["description"])
         gameInput()
         return
@@ -471,7 +472,8 @@ def startGame():
     global roomID
     global whatToGet
 
-    print("One day, you noclip out of reality. When you open your eyes again, you're lying on the damp carpet of a place you don't recognize.\n")
+    print("One day, you noclip out of reality. When you open your eyes again, you're lying on the damp carpet of a place you don't recognize.")
+    print("You stand up wondering where you are, as you look around you see that you are in a room leading south.\n")
 
     if useDefaultGeneration == True:
         print(data["rooms"][0]["description"])
