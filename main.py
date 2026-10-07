@@ -9,7 +9,13 @@ import threading
 # ============================================================
 
 name = "Backrooms: Command"
-version = "1.1.0"
+version = "1.2.0"
+
+# ============================================================
+# DEV/TESTING VARIABLES
+# ============================================================
+
+useTestMode = True
 
 # ============================================================
 # GENERATION
@@ -181,14 +187,26 @@ def goToDiverentRoom():
     global directionToGo
     global roomID
     global inventory
+    global usesTorch
 
     if directionToGo == "south":
         if data["rooms"][roomID-1]["connections"]["south"] != 0:
             roomID = data["rooms"][roomID-1]["connections"]["south"]
 
-            print(data["rooms"][roomID-1]["description"])
-            if inventory:
-                print("Inventory: ", inventory)
+            if data["rooms"][roomID-1]["darkRoom"] == "false":
+                print(data["rooms"][roomID-1]["description"])
+                if inventory:
+                    print("Inventory: ", inventory)
+            else:
+                if usesTorch == False:
+                    print(data["rooms"][roomID-1]["description"])
+                    if inventory:
+                        print("Inventory: ", inventory)
+                else:
+                    print(data["rooms"][roomID-1]["alternativeDescription"])
+                    if inventory:
+                        print("Inventory: ", inventory)
+
             
             time.sleep(0.33)
             #directionToGo = ""
@@ -205,9 +223,19 @@ def goToDiverentRoom():
         if data["rooms"][roomID-1]["connections"]["west"] != 0:
             roomID = data["rooms"][roomID-1]["connections"]["west"]
 
-            print(data["rooms"][roomID-1]["description"])
-            if inventory:
-                print("Inventory: ", inventory)
+            if data["rooms"][roomID-1]["darkRoom"] == "false":
+                print(data["rooms"][roomID-1]["description"])
+                if inventory:
+                    print("Inventory: ", inventory)
+            else:
+                if usesTorch == False:
+                    print(data["rooms"][roomID-1]["description"])
+                    if inventory:
+                        print("Inventory: ", inventory)
+                else:
+                    print(data["rooms"][roomID-1]["alternativeDescription"])
+                    if inventory:
+                        print("Inventory: ", inventory)
             
             time.sleep(0.33)
             #directionToGo = ""
@@ -225,9 +253,19 @@ def goToDiverentRoom():
         if data["rooms"][roomID-1]["connections"]["north"] != 0:
             roomID = data["rooms"][roomID-1]["connections"]["north"]
 
-            print(data["rooms"][roomID-1]["description"])
-            if inventory:
-                print("Inventory: ", inventory)
+            if data["rooms"][roomID-1]["darkRoom"] == "false":
+                print(data["rooms"][roomID-1]["description"])
+                if inventory:
+                    print("Inventory: ", inventory)
+            else:
+                if usesTorch == False:
+                    print(data["rooms"][roomID-1]["description"])
+                    if inventory:
+                        print("Inventory: ", inventory)
+                else:
+                    print(data["rooms"][roomID-1]["alternativeDescription"])
+                    if inventory:
+                        print("Inventory: ", inventory)
             
             time.sleep(0.33)
             #directionToGo = ""
@@ -244,9 +282,19 @@ def goToDiverentRoom():
         if data["rooms"][roomID-1]["connections"]["east"] != 0:
             roomID = data["rooms"][roomID-1]["connections"]["east"]
 
-            print(data["rooms"][roomID-1]["description"])
-            if inventory:
-                print("Inventory: ", inventory)
+            if data["rooms"][roomID-1]["darkRoom"] == "false":
+                print(data["rooms"][roomID-1]["description"])
+                if inventory:
+                    print("Inventory: ", inventory)
+            else:
+                if usesTorch == False:
+                    print(data["rooms"][roomID-1]["description"])
+                    if inventory:
+                        print("Inventory: ", inventory)
+                else:
+                    print(data["rooms"][roomID-1]["alternativeDescription"])
+                    if inventory:
+                        print("Inventory: ", inventory)
             
             time.sleep(0.33)
             #directionToGo = ""
@@ -263,9 +311,19 @@ def goToDiverentRoom():
         if data["rooms"][roomID-1]["connections"]["up"] != 0:
             roomID = data["rooms"][roomID-1]["connections"]["up"]
 
-            print(data["rooms"][roomID-1]["description"])
-            if inventory:
-                print("Inventory: ", inventory)
+            if data["rooms"][roomID-1]["darkRoom"] == "false":
+                print(data["rooms"][roomID-1]["description"])
+                if inventory:
+                    print("Inventory: ", inventory)
+            else:
+                if usesTorch == False:
+                    print(data["rooms"][roomID-1]["description"])
+                    if inventory:
+                        print("Inventory: ", inventory)
+                else:
+                    print(data["rooms"][roomID-1]["alternativeDescription"])
+                    if inventory:
+                        print("Inventory: ", inventory)
             
             time.sleep(0.33)
             #directionToGo = ""
@@ -282,9 +340,19 @@ def goToDiverentRoom():
         if data["rooms"][roomID-1]["connections"]["down"] != 0:
             roomID = data["rooms"][roomID-1]["connections"]["down"]
 
-            print(data["rooms"][roomID-1]["description"])
-            if inventory:
-                print("Inventory: ", inventory)
+            if data["rooms"][roomID-1]["darkRoom"] == "false":
+                print(data["rooms"][roomID-1]["description"])
+                if inventory:
+                    print("Inventory: ", inventory)
+            else:
+                if usesTorch == False:
+                    print(data["rooms"][roomID-1]["description"])
+                    if inventory:
+                        print("Inventory: ", inventory)
+                else:
+                    print(data["rooms"][roomID-1]["alternativeDescription"])
+                    if inventory:
+                        print("Inventory: ", inventory)
             
             time.sleep(0.33)
             #directionToGo = ""
@@ -304,6 +372,7 @@ def getItem():
     global data
     global itemsGrabbed
     global inventory
+    global useTestMode
 
     room = data["rooms"][roomID - 1]
 
@@ -316,7 +385,9 @@ def getItem():
             print(f"You picked up the {whatToGet}.")
             itemsGrabbed.append([roomID, whatToGet])
             inventory.append(whatToGet.lower())
-            print(itemsGrabbed)
+            if useTestMode == True:
+                # Only prints if you have dev/test mode on
+                print(itemsGrabbed)
             print("Inventory: ", inventory)
             gameInput()
             return
@@ -332,7 +403,13 @@ def torchCountdown():
     time.sleep(torchUseTime)
 
     usesTorch = False
-    print("\nThe torch goes out.")
+    print("\nThe torch goes out.\n")
+
+    if data["rooms"][roomID-1]["darkRoom"] == "true":
+        if usesTorch == False:
+            print(data["rooms"][roomID-1]["description"])
+            if inventory:
+                print("Inventory: ", inventory)
 
 
 def useItem():
@@ -349,7 +426,7 @@ def useItem():
 
     if whatToUse.lower() in inventory:
 
-        print(f"You use the {whatToUse}.")
+        print(f"You use the {whatToUse}.\n")
 
         # Remove the item from the inventory
         inventory.remove(whatToUse.lower())
@@ -358,14 +435,22 @@ def useItem():
 
             usesTorch = True
 
-            print(f"You can use the torch for {torchUseTime} seconds.")
+            print(f"You can use the torch for {torchUseTime} seconds.\n")
 
             threading.Thread(
                 target=torchCountdown,
                 daemon=True
             ).start()
 
-        print("Inventory:", inventory)
+            if data["rooms"][roomID-1]["darkRoom"] == "true":
+                if usesTorch == False:
+                    print(data["rooms"][roomID-1]["description"])
+                    if inventory:
+                        print("Inventory: ", inventory)
+                else:
+                    print(data["rooms"][roomID-1]["alternativeDescription"])
+                    if inventory:
+                        print("Inventory: ", inventory)
 
         gameInput()
         return
