@@ -225,7 +225,7 @@
       "id": 12,
       "name": "Room 12",
       "description": "A dead end only going east.",
-      "alternativeDescription": "",
+      "alternativeDescription": "You light up the room. You can now see a flickering wall.",
       "darkRoom": "true",
       "objects": [],
       "connections": {
