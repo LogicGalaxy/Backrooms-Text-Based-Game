@@ -1,6 +1,7 @@
 import time
 import json
 import os
+import threading
 
 
 # ============================================================
@@ -8,7 +9,7 @@ import os
 # ============================================================
 
 name = "Backrooms: Command"
-version = "1.0.0"
+version = "1.1.0"
 
 # ============================================================
 # GENERATION
@@ -26,6 +27,12 @@ useRandomGeneration = False
 # ============================================================
 
 directionToGo = "none"
+whatToGet = "none"
+itemsGrabbed = []
+inventory = []
+whatToUse = "none"
+torchUseTime = 30
+usesTorch = False
 
 # ============================================================
 # VARIABLES FOR THE ROOMS
@@ -74,23 +81,26 @@ def generationMessage():
     global useRandomGeneration
 
     if useDefaultGeneration == True:
-        print("\nUsing the default generation.\n")
+        print("Using the default generation.\n\n")
         useSeeds = False
         useRandomGeneration = False
         time.sleep(0.1)
     elif useSeeds == True:
-        print("\nUsing seed generation.\n")
+        print("Using seed generation.\n\n")
         useRandomGeneration = False
         time.sleep(0.1)
     elif useRandomGeneration == True:
-        print("\nUsing random generation.\n")
+        print("Using random generation.\n\n")
         time.sleep(0.1)
+
 
 # Things the user can do:
 def gameInput():
     global directionToGo
     global data
     global roomID
+    global whatToGet
+    global whatToUse
 
     userInput = input("What do you want to do?\n")
 
@@ -123,6 +133,26 @@ def gameInput():
         directionToGo = "down"
         goToDiverentRoom()
         return
+    
+    elif userInput.lower().startswith("get "):
+        if userInput[4:] != "":
+            whatToGet = userInput[4:]
+            getItem()
+        else:
+            print("you need to get something to make this command work.")
+            gameInput()
+            return
+    
+
+    elif userInput.lower().startswith("use "):
+        if userInput[4:] != "":
+            whatToUse = userInput[4:]
+            useItem()
+        else:
+            print("you need to get something to make this command work.")
+            gameInput()
+            return
+
 
     elif userInput.lower() == "quit":
         print("")
@@ -150,12 +180,15 @@ def goToDiverentRoom():
     global data
     global directionToGo
     global roomID
+    global inventory
 
     if directionToGo == "south":
         if data["rooms"][roomID-1]["connections"]["south"] != 0:
             roomID = data["rooms"][roomID-1]["connections"]["south"]
 
             print(data["rooms"][roomID-1]["description"])
+            if inventory:
+                print("Inventory: ", inventory)
             
             time.sleep(0.33)
             #directionToGo = ""
@@ -173,6 +206,8 @@ def goToDiverentRoom():
             roomID = data["rooms"][roomID-1]["connections"]["west"]
 
             print(data["rooms"][roomID-1]["description"])
+            if inventory:
+                print("Inventory: ", inventory)
             
             time.sleep(0.33)
             #directionToGo = ""
@@ -191,6 +226,8 @@ def goToDiverentRoom():
             roomID = data["rooms"][roomID-1]["connections"]["north"]
 
             print(data["rooms"][roomID-1]["description"])
+            if inventory:
+                print("Inventory: ", inventory)
             
             time.sleep(0.33)
             #directionToGo = ""
@@ -208,6 +245,8 @@ def goToDiverentRoom():
             roomID = data["rooms"][roomID-1]["connections"]["east"]
 
             print(data["rooms"][roomID-1]["description"])
+            if inventory:
+                print("Inventory: ", inventory)
             
             time.sleep(0.33)
             #directionToGo = ""
@@ -225,6 +264,8 @@ def goToDiverentRoom():
             roomID = data["rooms"][roomID-1]["connections"]["up"]
 
             print(data["rooms"][roomID-1]["description"])
+            if inventory:
+                print("Inventory: ", inventory)
             
             time.sleep(0.33)
             #directionToGo = ""
@@ -242,6 +283,8 @@ def goToDiverentRoom():
             roomID = data["rooms"][roomID-1]["connections"]["down"]
 
             print(data["rooms"][roomID-1]["description"])
+            if inventory:
+                print("Inventory: ", inventory)
             
             time.sleep(0.33)
             #directionToGo = ""
@@ -255,6 +298,85 @@ def goToDiverentRoom():
             return
 
 
+def getItem():
+    global whatToGet
+    global roomID
+    global data
+    global itemsGrabbed
+    global inventory
+
+    room = data["rooms"][roomID - 1]
+
+    if whatToGet.lower() in room["objects"]:
+        if [roomID, whatToGet] in itemsGrabbed:
+            print(f"There is no {whatToGet} here.")
+            gameInput()
+            return
+        else:
+            print(f"You picked up the {whatToGet}.")
+            itemsGrabbed.append([roomID, whatToGet])
+            inventory.append(whatToGet.lower())
+            print(itemsGrabbed)
+            print("Inventory: ", inventory)
+            gameInput()
+            return
+    else:
+        print(f"There is no {whatToGet} here.")
+        gameInput()
+        return
+
+
+def torchCountdown():
+    global usesTorch
+
+    time.sleep(torchUseTime)
+
+    usesTorch = False
+    print("\nThe torch goes out.")
+
+
+def useItem():
+    global whatToUse
+    global roomID
+    global data
+    global itemsGrabbed
+    global inventory
+    global torchTimer
+    global torchUseTime
+    global usesTorch
+
+    room = data["rooms"][roomID - 1]
+
+    if whatToUse.lower() in inventory:
+
+        print(f"You use the {whatToUse}.")
+
+        # Remove the item from the inventory
+        inventory.remove(whatToUse.lower())
+
+        if whatToUse.lower() == "torch":
+
+            usesTorch = True
+
+            print(f"You can use the torch for {torchUseTime} seconds.")
+
+            threading.Thread(
+                target=torchCountdown,
+                daemon=True
+            ).start()
+
+        print("Inventory:", inventory)
+
+        gameInput()
+        return
+
+
+    else:
+        print(f"There is no {whatToUse} in your inventory.")
+        gameInput()
+        return
+
+
 def startGame():
     global useDefaultGeneration
     global useSeeds
@@ -262,6 +384,7 @@ def startGame():
     global data
     global directionToGo
     global roomID
+    global whatToGet
 
     print("One day, you noclip out of reality. When you open your eyes again, you're lying on the damp carpet of a place you don't recognize.\n")
 
@@ -275,6 +398,7 @@ def startGame():
 with open('map.json', "r") as file:
     data = json.load(file)
 
+startupMessage()
 chooseWhatGeneration()
 generationMessage()
 startGame()
