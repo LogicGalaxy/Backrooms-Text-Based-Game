@@ -4,7 +4,7 @@
     {
       "id": 1,
       "name": "Room 1 (start room)",
-      "description": "A hallway going south.",
+      "description": "You see a hallway going south.",
       "alternativeDescription": "",
       "darkRoom": "false",
       "objects": [],
@@ -24,7 +24,7 @@
     {
       "id": 2,
       "name": "Room 2",
-      "description": "A corner going north and west.",
+      "description": "You walk into the room and see a corner going north and west.",
       "alternativeDescription": "",
       "objects": [],
       "darkRoom": "false",
@@ -44,7 +44,7 @@
     {
       "id": 3,
       "name": "Room 3",
-      "description": "An intersection going in 3 different ways, north, east and south.",
+      "description": "You're in an intersection going in 3 different ways, north, east and south.",
       "alternativeDescription": "",
       "objects": [],
       "darkRoom": "false",
@@ -64,7 +64,7 @@
     {
       "id": 4,
       "name": "Room 4",
-      "description": "A dead end only going south",
+      "description": " You walk into a dead end that only leads to the south",
       "alternativeDescription": "",
       "objects": [],
       "darkRoom": "false",
@@ -84,7 +84,7 @@
     {
       "id": 5,
       "name": "Room 5",
-      "description": "A corner going north and east.",
+      "description": "You walk into a corner going north and east.",
       "alternativeDescription": "",
       "darkRoom": "false",
       "objects": [],
@@ -104,7 +104,7 @@
     {
       "id": 6,
       "name": "Room 6",
-      "description": "An intersection going in 3 different ways, east, south and west.",
+      "description": "You see an intersection going in 3 different ways, east, south and west.",
       "alternativeDescription": "",
       "darkRoom": "false",
       "objects": [],
@@ -124,7 +124,7 @@
     {
       "id": 7,
       "name": "Room 7",
-      "description": "A corner going north and west.",
+      "description": "You're in a corner going north and west.",
       "alternativeDescription": "",
       "darkRoom": "false",
       "objects": [],
@@ -144,7 +144,7 @@
     {
       "id": 8,
       "name": "Room 8",
-      "description": "A dead end only going east.",
+      "description": "You are at a dead end going back east, you see a torch hanging on the wall.",
       "alternativeDescription": "",
       "darkRoom": "false",
       "objects": ["torch"],
@@ -164,7 +164,7 @@
     {
       "id": 9,
       "name": "Room 9",
-      "description": "An intersection going north, east and west.",
+      "description": "You walk into a intersection going north, east and west.",
       "alternativeDescription": "",
       "darkRoom": "false",
       "objects": [],
@@ -184,7 +184,7 @@
     {
       "id": 10,
       "name": "Room 10",
-      "description": "A corner going south and west.",
+      "description": "You see a corner going south and west.",
       "alternativeDescription": "",
       "darkRoom": "false",
       "objects": [],
@@ -204,7 +204,7 @@
     {
       "id": 11,
       "name": "Room 11",
-      "description": "a corner going north and west.",
+      "description": "You're in a corner going north and west.",
       "alternativeDescription": "",
       "darkRoom": "false",
       "objects": [],
@@ -224,7 +224,7 @@
     {
       "id": 12,
       "name": "Room 12",
-      "description": "A dead end only going east.",
+      "description": "You're in a room with the entrance in the east, you dont see anything because the room has no lights.",
       "alternativeDescription": "You light up the room. You can now see a flickering wall.",
       "darkRoom": "true",
       "objects": [],
@@ -244,7 +244,7 @@
     {
       "id": 13,
       "name": "Room 13",
-      "description": "An intersection going north, east and south.",
+      "description": "You're in an room full of pillars, you are in an intersection going north, east and south.",
       "alternativeDescription": "",
       "darkRoom": "false",
       "objects": [],
@@ -264,7 +264,7 @@
     {
       "id": 14,
       "name": "Room 14",
-      "description": "A corner going east and south.",
+      "description": " You're in a corner going east and south.",
       "alternativeDescription": "",
       "darkRoom": "false",
       "objects": [],
@@ -284,7 +284,7 @@
     {
       "id": 15,
       "name": "Room 15",
-      "description": "A corner going south and west.",
+      "description": "You're in antoher corner, This one is going south and west.",
       "alternativeDescription": "",
       "darkRoom": "false",
       "objects": [],
@@ -304,7 +304,7 @@
     {
       "id": 16,
       "name": "Room 16",
-      "description": "A corner going north and west.",
+      "description": "You;re in a corner going north and west.",
       "alternativeDescription": "",
       "darkRoom": "false",
       "objects": [],
