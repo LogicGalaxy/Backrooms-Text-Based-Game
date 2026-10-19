@@ -85,3 +85,23 @@ creating a more suitable map for this project.
 [ULisp Adventure Map](http://www.ulisp.com/show?383X)
 
 [Adventure Map Image](http://www.ulisp.com/pictures/3j/adventuremap.gif)
+
+## Planned Updates
+
+The following updates are planned for future versions of the game:
+
+- **Improve Level 0:** Revise and expand the existing room descriptions to make exploration more immersive and atmospheric.
+- **Add New Levels:** Implement the following levels:
+  - Level 1
+  - Level 2
+  - Level 4
+  - Level 6.1
+  - Level 11
+  - Level 25
+  - Level 37
+  - Level 109
+  - Level 114
+- **Map Generation:** Add the option to generate maps randomly or use seeds to generate specific, reproducible maps.
+- **Expand the Game:** Add even more levels and content in future updates.
+
+These plans may change as development continues.
