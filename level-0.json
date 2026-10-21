@@ -1,5 +1,5 @@
 {
-  "mapName": "Map",
+  "mapName": "Level 0",
   "rooms": [
     {
       "id": 1,
@@ -7,7 +7,7 @@
       "description": "You see a hallway going south.",
       "alreadyInRoomDescription": "This is the description of room 1!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "You check the room, You see a faint arrow on the wall leading south you think its where you have to go.",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -29,7 +29,7 @@
       "description": "You walk into the room and see a corner going north and west.",
       "alreadyInRoomDescription": "This is the description of room 2!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "You check the room, you see multiple faint arrows pointing west.",
       "objects": [],
       "darkRoom": "false",
       "connections": {
@@ -49,9 +49,9 @@
       "id": 3,
       "name": "Room 3",
       "description": "You're in an intersection going in 3 different ways, north, east and south.",
-      "alreadyInRoomDescription": "This is the description of room 1!",
+      "alreadyInRoomDescription": "This is the description of room 3!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "You check the room, there's an arrow leading south and text on the wall that says go north, you dont know which one to trust.",
       "objects": [],
       "darkRoom": "false",
       "connections": {
@@ -73,7 +73,7 @@
       "description": "You walk into a dead end that only leads to the south",
       "alreadyInRoomDescription": "This is the description of room 1!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "You check the room, you see a lot of text all over the walls they mostly say, dont trust the shadow! and The shadow will Kill.",
       "objects": [],
       "darkRoom": "false",
       "connections": {
@@ -95,7 +95,7 @@
       "description": "You walk into a corner going north and east.",
       "alreadyInRoomDescription": "This is the description of room 1!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "You check the room, you see a red arrow leading north, you think its made of blood.",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -117,7 +117,7 @@
       "description": "You see an intersection going in 3 different ways, east, south and west.",
       "alreadyInRoomDescription": "This is the description of room 1!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "You check the room, you see two arrows one is pointing south, the other one east.",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -139,7 +139,7 @@
       "description": "You're in a corner going north and west.",
       "alreadyInRoomDescription": "This is the description of room 1!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "You check the room, there are two arrows one points west and the other points north.",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -161,7 +161,7 @@
       "description": "You are at a dead end going back east, you see a torch hanging on the wall.",
       "alreadyInRoomDescription": "This is the description of room 1!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "You check the room, you see a torch hanging on the wall, you think you can reach it",
       "darkRoom": "false",
       "objects": ["torch"],
       "connections": {
@@ -183,7 +183,7 @@
       "description": "You walk into a intersection going north, east and west.",
       "alreadyInRoomDescription": "This is the description of room 1!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "You check the room, you see a red arrow made of blood pointing north",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -205,7 +205,7 @@
       "description": "You see a corner going south and west.",
       "alreadyInRoomDescription": "This is the description of room 1!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "You check the room, you see text that says, Watch out for the shadow.",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -227,7 +227,7 @@
       "description": "You're in a corner going north and west.",
       "alreadyInRoomDescription": "This is the description of room 1!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "You check the room, There is a big red arrow pointing north with the text,g0 n0rth",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -249,7 +249,7 @@
       "description": "You're in a room with the entrance in the east, you dont see anything because the room has no lights.",
       "alreadyInRoomDescription": "This is the description of room 1!",
       "alternativeDescription": "You light up the room. You can now see a flickering wall.",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "You check the room, you see a spot where you can hang a torch on the wall, you think you'll need a torch",
       "darkRoom": "true",
       "objects": [],
       "connections": {
@@ -271,7 +271,7 @@
       "description": "You're in an room full of pillars, you are in an intersection going north, east and south.",
       "alreadyInRoomDescription": "This is the description of room 1!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "You check the room, there's text saying, keep going to leave.",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -293,7 +293,7 @@
       "description": " You're in a corner going east and south.",
       "alreadyInRoomDescription": "This is the description of room 1!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "You check the room, There is a Really big red arrow leading east.",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -315,7 +315,7 @@
       "description": "You're in antoher corner, This one is going south and west.",
       "alreadyInRoomDescription": "This is the description of room 1!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "You look over youre shoulder, you see a weird humanoid shadow standing in the corner of the room.",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -337,7 +337,7 @@
       "description": "You're in a corner going north and west.",
       "alreadyInRoomDescription": "This is the description of room 1!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "You check the room, you see a faint arrow pointing west",
       "darkRoom": "false",
       "objects": [],
       "connections": {
