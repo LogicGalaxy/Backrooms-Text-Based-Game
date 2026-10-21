@@ -1,0 +1,25 @@
+{
+  "mapName": "level-1",
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Room 1",
+      "description": "Your in the north-west corner of a corridor, you can go East and South.",
+      "alreadyInRoomDescription": "This is the description of room 1!",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room!",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 2,
+        "south": 6,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      },
+      "gridPosition": {
+        "x": 1,
+        "y": 0
+      }
+    },
