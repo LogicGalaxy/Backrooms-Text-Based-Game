@@ -9,7 +9,7 @@ import threading
 # ============================================================
 
 name = "Backrooms: Command"
-version = "1.4.0"
+version = "1.4.1"
 
 # ============================================================
 # DEV/TESTING VARIABLES
@@ -490,7 +490,7 @@ def startGame():
 
 
 
-with open('level-1.json', "r") as file:
+with open('level-0.json', "r") as file:
     data = json.load(file)
 
 startupMessage()
