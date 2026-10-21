@@ -9,13 +9,13 @@ import threading
 # ============================================================
 
 name = "Backrooms: Command"
-version = "1.3.0"
+version = "1.4.0"
 
 # ============================================================
 # DEV/TESTING VARIABLES
 # ============================================================
 
-useTestMode = True
+useTestMode = False
 
 # ============================================================
 # GENERATION
@@ -108,39 +108,41 @@ def gameInput():
     global whatToGet
     global whatToUse
 
+    room = data["rooms"][roomID - 1]
+
     userInput = input("What do you want to do?\n")
 
-    if userInput.lower() == "go north":
+    if userInput.strip().lower() == "go north":
         directionToGo = "north"
         goToDiverentRoom()
         return
 
-    elif userInput.lower() == "go east":
+    elif userInput.strip().lower() == "go east":
         directionToGo = "east"
         goToDiverentRoom()
         return
 
-    elif userInput.lower() == "go south":
+    elif userInput.strip().lower() == "go south":
         directionToGo = "south"
         goToDiverentRoom()
         return 
 
-    elif userInput.lower() == "go west":
+    elif userInput.strip().lower() == "go west":
         directionToGo = "west"
         goToDiverentRoom()
         return
 
-    elif userInput.lower() == "go up":
+    elif userInput.strip().lower() == "go up":
         directionToGo = "up"
         goToDiverentRoom()
         return
 
-    elif userInput.lower() == "go down":
+    elif userInput.strip().lower() == "go down":
         directionToGo = "down"
         goToDiverentRoom()
         return
     
-    elif userInput.lower().startswith("get "):
+    elif userInput.strip().lower().startswith("get "):
         if userInput[4:] != "":
             whatToGet = userInput[4:]
             getItem()
@@ -150,7 +152,7 @@ def gameInput():
             return
     
 
-    elif userInput.lower().startswith("use "):
+    elif userInput.strip().lower().startswith("use "):
         if userInput[4:] != "":
             whatToUse = userInput[4:]
             useItem()
@@ -160,11 +162,11 @@ def gameInput():
             return
 
 
-    elif userInput.lower() == "quit":
+    elif userInput.strip().lower() == "quit":
         print("")
         quit()
     
-    elif userInput.lower() == "clear chat":
+    elif userInput.strip().lower() == "clear":
         print("Clearing the chat...")
         time.sleep(0.5)
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -172,9 +174,13 @@ def gameInput():
         generationMessage()
         print("One day, you noclip out of reality. When you open your eyes again, you're lying on the damp carpet of a place you don't recognize.")
         print("You stand up wondering where you are, as you look around you see that you are in a room leading south.\n")
-        print(data["rooms"][roomID-1]["description"])
+        print(data["rooms"][roomID-1]["alreadyInRoomDescription"])
         gameInput()
         return
+
+    elif userInput.strip().lower() == "check room":
+        print(room["checkRoomMessage"])
+        gameInput()
 
     else:
         print(f"You can't do: \"{userInput}\".\n")
@@ -408,7 +414,7 @@ def torchCountdown():
 
     if data["rooms"][roomID-1]["darkRoom"] == "true":
         if usesTorch == False:
-            print(data["rooms"][roomID-1]["description"])
+            print(data["rooms"][roomID-1]["alreadyInRoomDescription"])
             if inventory:
                 print("Inventory: ", inventory)
 
@@ -472,17 +478,19 @@ def startGame():
     global roomID
     global whatToGet
 
+    print("Commands:\nGo {north/south/east/west}\nGet {item}\nUse {item}\nQuit (WARNING: this closes the entire game, so don't use it if you still want to play!)\n\n")
+
     print("One day, you noclip out of reality. When you open your eyes again, you're lying on the damp carpet of a place you don't recognize.")
     print("You stand up wondering where you are, as you look around you see that you are in a room leading south.\n")
 
     if useDefaultGeneration == True:
-        print(data["rooms"][0]["description"])
+        print(data["rooms"][0]["alreadyInRoomDescription"])
 
         gameInput()
 
 
 
-with open('map.json', "r") as file:
+with open('level-1.json', "r") as file:
     data = json.load(file)
 
 startupMessage()
