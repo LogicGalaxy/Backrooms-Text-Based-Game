@@ -313,7 +313,7 @@
       "id": 15,
       "name": "Room 15",
       "description": "You walk into another corner, This one is going south and west, you see a faint shadow.",
-      "alreadyInRoomDescription": "You're in a corner going south and west, the shadow is a bit less faint.",
+      "alreadyInRoomDescription": "You're in a corner going south and west, there is a faint shadow.",
       "alternativeDescription": "",
       "checkRoomMessage": "You look over youre shoulder, you see a weird humanoid shadow standing in the corner of the room.",
       "darkRoom": "false",
