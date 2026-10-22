@@ -314,7 +314,7 @@
       "name": "Room 15",
       "description": "You walk into another corner, This one is going south and west, you see a faint shadow.",
       "alreadyInRoomDescription": "You're in a corner going south and west, there is a faint shadow.",
-      "alternativeDescription": "",
+      "alternativeDescription": "You approach the shadow and as you do it starts to shake, you take a step, the shadow starts turning around, you take another step, the shadow start shaking more, and more, you take a third step, the shadow has turned aorund fully and is looking at you, you take one final step, And IT LUNGES AT YOU, you stumble back and get scared by it, it runs at you, it starts attacking youre shadow you dont feel it but you do see youre shadow getting hurt and, then the shadow monster runs away to the west and youre left all alone in that room wondering what happend or if he will come back.",
       "checkRoomMessage": "You look over youre shoulder, you see a weird humanoid shadow standing in the corner of the room.",
       "darkRoom": "false",
       "objects": [],
