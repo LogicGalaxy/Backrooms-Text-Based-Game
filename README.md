@@ -56,7 +56,7 @@ Contributed changes to the descriptions of rooms and plans to contribute
 additional descriptions for different levels.
 
 **29rjj29**  
-Contributed to the room descriptions for Level 0 and came up with the
+Made the room descriptions for Level 0, and researched things about the backrooms, and came up with the
 second sentence of the first message displayed by `main.py`.
 
 ### References and Inspiration
