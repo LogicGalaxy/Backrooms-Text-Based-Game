@@ -102,6 +102,7 @@ The following updates are planned for future versions of the game:
   - Level 109
   - Level 114
 - **Map Generation:** Add the option to generate maps randomly or use seeds to generate specific, reproducible maps.
+- **NPC's:** Add NPC's to certain levels.
 - **Expand the Game:** Add even more levels and content in future updates.
 
 These plans may change as development continues.
