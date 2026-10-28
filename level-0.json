@@ -17,10 +17,6 @@
         "west": 0,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 1,
-        "y": 0
       }
     },
     {
@@ -39,10 +35,6 @@
         "west": 3,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 1,
-        "y": 1
       }
     },
     {
@@ -61,10 +53,6 @@
         "west": 0,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 0,
-        "y": 1
       }
     },
     {
@@ -83,10 +71,6 @@
         "west": 0,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 0,
-        "y": 0
       }
     },
     {
@@ -105,10 +89,6 @@
         "west": 0,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 0,
-        "y": 2
       }
     },
     {
@@ -127,10 +107,6 @@
         "west": 5,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 1,
-        "y": 2
       }
     },
     {
@@ -149,10 +125,6 @@
         "west": 8,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 1,
-        "y": 3
       }
     },
     {
@@ -171,10 +143,6 @@
         "west": 0,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 0,
-        "y": 3
       }
     },
     {
@@ -193,10 +161,6 @@
         "west": 6,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 2,
-        "y": 2
       }
     },
     {
@@ -215,10 +179,6 @@
         "west": 9,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 3,
-        "y": 2
       }
     },
     {
@@ -237,10 +197,6 @@
         "west": 12,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 3,
-        "y": 3
       }
     },
     {
@@ -259,10 +215,6 @@
         "west": 0,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 2,
-        "y": 3
       }
     },
     {
@@ -281,10 +233,6 @@
         "west": 0,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 2,
-        "y": 1
       }
     },
     {
@@ -303,10 +251,6 @@
         "west": 0,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 2,
-        "y": 0
       }
     },
     {
@@ -325,10 +269,6 @@
         "west": 14,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 3,
-        "y": 0
       }
     },
     {
@@ -347,10 +287,6 @@
         "west": 13,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 3,
-        "y": 1
       }
     }
   ]
