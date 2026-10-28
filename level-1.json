@@ -2,32 +2,28 @@
   "mapName": "level-1",
   "rooms": [
     {
-      "id": 1,
-      "name": "Room 1",
+      "id": 17,
+      "name": "Room 17",
       "description": "You walk into the room and see a corner going east and south.",
-      "alreadyInRoomDescription": "This is the description of room 1!",
+      "alreadyInRoomDescription": "This is the description of room 17!",
       "alternativeDescription": "",
       "checkRoomMessage": "You check the room!",
       "darkRoom": "false",
       "objects": [],
       "connections": {
         "north": 0,
-        "east": 2,
-        "south": 6,
+        "east": 18,
+        "south": 22,
         "west": 0,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 1,
-        "y": 0
       }
     },
     {
-      "id": 2,
-      "name": "Room 2",
+      "id": 18,
+      "name": "Room 18",
       "description": "You walk into the room seeing a corner going both south and west.",
-      "alreadyInRoomDescription": "This is the description of room 2!",
+      "alreadyInRoomDescription": "This is the description of room 18!",
       "alternativeDescription": "",
       "checkRoomMessage": "You check the room!",
       "darkRoom": "false",
@@ -35,43 +31,35 @@
       "connections": {
         "north": 0,
         "east": 0,
-        "south": 7,
-        "west": 1,
+        "south": 23,
+        "west": 17,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 2,
-        "y": 0
       }
     },
     {
-      "id": 3,
-      "name": "Room 3 (start room)",
+      "id": 19,
+      "name": "Room 19 (start room)",
       "description": "Your in a corner where you can go either East or South.",
-      "alreadyInRoomDescription": "This is the description of room 3!",
+      "alreadyInRoomDescription": "This is the description of room 19!",
       "alternativeDescription": "",
       "checkRoomMessage": "You check the room!",
       "darkRoom": "false",
       "objects": [],
       "connections": {
         "north": 0,
-        "east": 4,
-        "south": 8,
+        "east": 20,
+        "south": 24,
         "west": 0,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 3,
-        "y": 0
       }
     },
     {
-      "id": 4,
-      "name": "Room 4",
+      "id": 20,
+      "name": "Room 20",
       "description": "Your in a dead end, you can only go west.",
-      "alreadyInRoomDescription": "This is the description of room 4!",
+      "alreadyInRoomDescription": "This is the description of room 20!",
       "alternativeDescription": "",
       "checkRoomMessage": "You check the room!",
       "darkRoom": "false",
@@ -80,20 +68,16 @@
         "north": 0,
         "east": 0,
         "south": 0,
-        "west": 3,
+        "west": 19,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 4,
-        "y": 0
       }
     },
     {
-      "id": 5,
-      "name": "Room 5",
+      "id": 21,
+      "name": "Room 21",
       "description": "Your in the hallway but it still looks like it keeps going. You can go North or South.",
-      "alreadyInRoomDescription": "This is the description of room 5!",
+      "alreadyInRoomDescription": "This is the description of room 21!",
       "alternativeDescription": "",
       "checkRoomMessage": "You check the room!",
       "darkRoom": "false",
@@ -101,123 +85,119 @@
       "connections": {
         "north": 0,
         "east": 0,
-        "south": 10,
-        "west": 1,
+        "south": 26,
+        "west": 17,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 5,
-        "y": 0
       }
     },
     {
-      "id": 6,
-      "name": "Room 6",
+      "id": 22,
+      "name": "Room 22",
       "description": "Your at a corridor going north, east and south.",
-      "alreadyInRoomDescription": "This is the description of room 6!",
+      "alreadyInRoomDescription": "This is the description of room 22!",
       "alternativeDescription": "",
       "checkRoomMessage": "You check the room!",
       "darkRoom": "false",
       "objects": [],
       "connections": {
-        "north": 1,
-        "east": 7,
-        "south": 11,
+        "north": 17,
+        "east": 23,
+        "south": 27,
         "west": 0,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 1,
-        "y": 1
       }
     },
     {
-      "id": 7,
-      "name": "Room 7",
+      "id": 23,
+      "name": "Room 23",
       "description": "Your in a room where you can go in all directions.",
-      "alreadyInRoomDescription": "This is the description of room 7!",
+      "alreadyInRoomDescription": "This is the description of room 23!",
       "alternativeDescription": "",
       "checkRoomMessage": "You check the room!",
       "darkRoom": "false",
       "objects": [],
       "connections": {
-        "north": 2,
-        "east": 8,
-        "south": 12,
-        "west": 6,
+        "north": 18,
+        "east": 24,
+        "south": 28,
+        "west": 22,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 2,
-        "y": 1
       }
     },
     {
-      "id": 8,
-      "name": "Room 8",
+      "id": 24,
+      "name": "Room 24",
       "description": "Your in an intersection which goes north, east and west.",
-      "alreadyInRoomDescription": "This is the description of room 8!",
+      "alreadyInRoomDescription": "This is the description of room 24!",
       "alternativeDescription": "",
       "checkRoomMessage": "You check the room!",
       "darkRoom": "false",
       "objects": [],
       "connections": {
-        "north": 3,
-        "east": 9,
+        "north": 19,
+        "east": 25,
         "south": 0,
-        "west": 7,
+        "west": 23,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 3,
-        "y": 1
       }
     },
     {
-      "id": 9,
-      "name": "Room 9",
+      "id": 25,
+      "name": "Room 25",
       "description": "Your in a hallway which goes both north and south.",
-      "alreadyInRoomDescription": "This is the description of room 9!",
+      "alreadyInRoomDescription": "This is the description of room 25!",
       "alternativeDescription": "",
       "checkRoomMessage": "You check the room!",
       "darkRoom": "false",
       "objects": [],
       "connections": {
-        "north": 8,
+        "north": 24,
         "east": 0,
-        "south": 14,
+        "south": 30,
         "west": 0,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 4,
-        "y": 1
       }
     },
     {
-      "id": 10,
-      "name": "Room 10",
+      "id": 26,
+      "name": "Room 26",
       "description": "Your in the hallway, it seems a lot longer then when you entered. You can go either north or south.",
-      "alreadyInRoomDescription": "This is the description of room 10!",
+      "alreadyInRoomDescription": "This is the description of room 26!",
       "alternativeDescription": "",
       "checkRoomMessage": "You check the room!",
       "darkRoom": "false",
       "objects": [],
       "connections": {
-        "north": 5,
+        "north": 21,
         "east": 0,
-        "south": 15,
+        "south": 31,
         "west": 0,
         "up": 0,
         "down": 0
-      },
-      "gridPosition": {
-        "x": 5,
-        "y": 1
       }
     },
+    {
+      "id": 27,
+      "name": "Room 27",
+      "description": "You walk into the room seeing a corner which goes both north and east.",
+      "alreadyInRoomDescription": "This is the description of room 27!",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room!",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 21,
+        "east": 0,
+        "south": 31,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    }
+  ]
+}
