@@ -1,0 +1,167 @@
+{
+  "mapName": "Level 4",
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Room 1",
+      "description": "You walk into a corner going east and south, there's a table with a clock.",
+      "alreadyInRoomDescription": "You see a corner going east and south, There's a table with a clock hanging on the wall above it.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room, There's a bottle of almond water on the table, the clock does not seem to be moving.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 2,
+        "south": 6,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 2,
+      "name": "Room 2",
+      "description": "You walk into a intersection going east, south and west, there is a small table with one office chair and a computer in the middle of the room.",
+      "alreadyInRoomDescription": "You see a intersection going east, south and west, There is a table with an office chair and a computer in the middle of the room.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room, There is an arrow on the computer made with 0's and 1's its pointing west.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 3,
+        "south": 7,
+        "west": 1,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 3,
+      "name": "Room 3",
+      "description": "You walk into a hallway going east and west, There is a water cooler on the north side of the room, there is a massive pile of cups on the ground.",
+      "alreadyInRoomDescription": "You see a hallway going east and west, There's a water cooler and a big pile of cups.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room, There's a faint shape of an arrow pointing west made by cups.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 4,
+        "south": 0,
+        "west": 2,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 4,
+      "name": "Room 4",
+      "description": "You walk into a intersection going east, south and west, There is a flickering light on the ceiling.",
+      "alreadyInRoomDescription": "You see a intersection going, east south and west, there is a flickering light on the ceiling.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room, you find a note in the north-west corner of the room, it says dont go near the normal windows.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 5,
+        "south": 9,
+        "west": 3,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 5,
+      "name": "Room 5",
+      "description": "You walk into a corner going south and west, There are windows on all sides of the room, all of them are blacked out.",
+      "alreadyInRoomDescription": "You see a corner going, south and west, there are blacked out windows on each side of the room.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room, there is an arrow between 2 windows pointing west.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 0,
+        "south": 10,
+        "west": 4,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 6,
+      "name": "Room 6",
+      "description": "You walk into a hallway going north and south, there is a water cooler which is empty.",
+      "alreadyInRoomDescription": "You see a corner going, south and west, there is an empty water cooler.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room, an arrow made with condense on the side of thhe water cooler pointing south.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 1,
+        "east": 0,
+        "south": 11,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 7,
+      "name": "Room 7",
+      "description": "You walk into a corner going north and east, There is a shoe laying in the corner of the room, you think people have been here.",
+      "alreadyInRoomDescription": "You see a corner going, north and east, there's a shoe in the corner of the room, you think people have been here.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room, the tip of the shoe is pointing south-west, but there is no entrance/exit there.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 2,
+        "east": 8,
+        "south": 0,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 8,
+      "name": "Room 8",
+      "description": "You walk into a intersection going east, south and west. there is a big board with sticky notes on the north side of the wall, you cant read them.",
+      "alreadyInRoomDescription": "You see a intersection going east, south and west, there is a board full of sticky notes you cant read.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room, The sticky notes form an arrow pointing south.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 9,
+        "south": 13,
+        "west": 7,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 9,
+      "name": "Room 9",
+      "description": "You see into a intersection going north, south and west. there is a flickering light on the ceiling.",
+      "alreadyInRoomDescription": "You see a intersection going north, south and west, there is a flickering light on the ceiling.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room, You dont see anything weird.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 4,
+        "east": 0,
+        "south": 14,
+        "west": 8,
+        "up": 0,
+        "down": 0
+      }
+    }
+  ]
+}
