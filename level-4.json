@@ -9,7 +9,7 @@
       "alternativeDescription": "",
       "checkRoomMessage": "You check the room, There's a bottle of almond water on the table, the clock does not seem to be moving.",
       "darkRoom": "false",
-      "objects": [],
+      "objects": ["almond water"],
       "connections": {
         "north": 0,
         "east": 2,
@@ -115,9 +115,9 @@
       "description": "You walk into a corner going north and east, There is a shoe laying in the corner of the room, you think people have been here.",
       "alreadyInRoomDescription": "You see a corner going, north and east, there's a shoe in the corner of the room, you think people have been here.",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room, the tip of the shoe is pointing south-west, but there is no entrance/exit there.",
+      "checkRoomMessage": "You check the room, the tip of the shoe is pointing south-west, but there is no entrance/exit there, there is also a bottle of almond water on the floor.",
       "darkRoom": "false",
-      "objects": [],
+      "objects": ["almond water"],
       "connections": {
         "north": 2,
         "east": 8,
@@ -159,6 +159,240 @@
         "east": 0,
         "south": 14,
         "west": 8,
+        "up": 0,
+        "down": 0
+      }
+    },
+     {
+      "id": 10,
+      "name": "Room 10",
+      "description": "You walk into a corridor with a lof of blacked out windows on the east side of the room, one of the windows is not blacked out.",
+      "alreadyInRoomDescription": "you're in a corridor with blacked out windows on the east side of the room, one of them is not blacked out.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room, you dont see anything out of the ordinary except for the windows, especially the one that is not blacked out.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 5,
+        "east": 0,
+        "south": 15,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 11,
+      "name": "Room 11",
+      "description": "you walk into an intersection with an exit on the north, east and south side, there is a broken water cooler on the north east side of the room.",
+      "alreadyInRoomDescription": "You see an intersection with exits on the north, east and south side, there is a broken water cooler on the north-east side of the room.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room, you see a faint arrow on the ceiling pointing south, there is a bottle of almond water next to the water cooler.",
+      "darkRoom": "false",
+      "objects": ["almond water"],
+      "connections": {
+        "north": 6,
+        "east": 12,
+        "south": 16,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 12,
+      "name": "Room 12",
+      "description": "you walk into an intersection there are exits on the east, south and west of the room, there is a spinning ceiling fan on the ceiling.",
+      "alreadyInRoomDescription": "You see an intersection there's exits on the east, south and west of the room, there is a ceiling fan wich is spinning clockwise.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room, you see a note sticking to the north-west side wall saying do not trust the normal windows.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 13,
+        "south": 17,
+        "west": 11,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 13,
+      "name": "Room 13",
+      "description": "you walk into a qaudruple intersection, there are exits on every side of the room, the ceiling in this room is higher than in other rooms.",
+      "alreadyInRoomDescription": "you're in a intersection with exits on every side of the room, the ceiling of this room is higher than other ceilings in other rooms.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room, all the way at the top of the ceiling is a faint arrow pointing west.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 8,
+        "east": 14,
+        "south": 18,
+        "west": 12,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 14,
+      "name": "Room 14",
+      "description": "you walk into a qaudruple intersection, there are exits on every side of the room, there is a big desk in the middle of the room with a computer.",
+      "alreadyInRoomDescription": "you're in a intersection with exits on every side of the room, there's a big desk in the middle of the room with a computer.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room, and while checking it you accidentally tap the computer, the computer now has text on it that says: \"there are 2 exits on this level you can go to level 6.1 and level 5 good luck survivors -M.E.G.\". You think that you can trust this so called 'M.E.G.'",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 9,
+        "east": 15,
+        "south": 19,
+        "west": 13,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 15,
+      "name": "Room 15",
+      "description": "You walk into a corner with exits on the north and west, there is a vending machine with no buttons on the south wall of the room.",
+      "alreadyInRoomDescription": "you're in a corner with exits on the north and west of the room, there is a vending machine without buttons on the south side of the room.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "you check the room! the vending machine seems to have the buttons taken off, you spot the buttons laying on the floor forming an arrow pointing west, there is a bottle of almond water on top of the vending machine.",
+      "darkRoom": "false",
+      "objects": ["almond water"],
+      "connections": {
+        "north": 10,
+        "east": 0,
+        "south": 0,
+        "west": 14,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 16,
+      "name": "Room 16",
+      "description": "you walk into a dead-end with an exit on the north, you see a vending machine with one button on it there are multiple arrows on the vending machine pointing at the button.",
+      "alreadyInRoomDescription": "you're in a dead-end with a exit on the north, you see a vending machine that only has one button left for snack 51, the button is worn out and there are multiple arrows pointing at it.",
+      "alternativeDescription": "You walk towards the vending machine and click the button, the button pushes in and you hear a satisfying \"CLICK\", You suddenly fall forward through the vending machine, you try grabbing onto the wall but youre hand passes through, you land face first on the floor, when you stand up again and look behind you, you dont see anything except for a wall, you look around you and see a small mall-like area.",
+      "checkRoomMessage": "you check the room! the vending machine has a note next to it that says \"Click the button to go to level 5.1 the snackrooms, its safe M.E.G\", You think you trust the note and the M.E.G guy.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 11,
+        "east": 0,
+        "south": 0,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 17,
+      "name": "Room 17",
+      "description": "you walk into a triple intersection and there are exits on the north, east and south side of the room, there is a flickering light on the ceiling.",
+      "alreadyInRoomDescription": "you're in a triple intersection with exits on the north, east and south side of the room, there is a flickering light on the ceiling.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "you check the room! there is a faint arrow on the east wall that points up north.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 12,
+        "east": 18,
+        "south": 22,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 18,
+      "name": "Room 18",
+      "description": "you walk into a corner with exits on the north and west, you see a water cooler on the east wall.",
+      "alreadyInRoomDescription": "you're in a corner with exits on the north and west, you see a water cooler on the east wall.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "you check the room! there is a bottle of almond water next to the water cooler",
+      "darkRoom": "false",
+      "objects": ["almond water"],
+      "connections": {
+        "north": 13,
+        "east": 0,
+        "south": 0,
+        "west": 17,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 19,
+      "name": "Room 19",
+      "description": "you walk into a triple intersection with exits on the north, east and south, there is a vending machine without buttons on the west side of the room.",
+      "alreadyInRoomDescription": "you're in a intersection with exits in the north, east and south, there is a vending machine without buttons on the west side of the room.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "you check the room! you dont see anything out of the ordinary.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 14,
+        "east": 20,
+        "south": 23,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 20,
+      "name": "Room 20",
+      "description": "you walk into a corner with exits on the south and west of the room, there are windows on the east side of the room all of them are blacked out.",
+      "alreadyInRoomDescription": "you're in a corner with exits on the south and west of the room, there are blacked-out windows on the east side of the room.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "you check the room! there seems to be text on the wall stating \"go to level 6.1 its safe there M.E.G\", You really trust this so called M.E.G.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 0,
+        "south": 25,
+        "west": 19,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 21,
+      "name": "Room 21",
+      "description": "you walk into a dead end with an exit on the east side, there is a big stairwell in the middle of the room, the stairwell seems to be blocked off.",
+      "alreadyInRoomDescription": "you're in a dead end with an exit on the east side, there is a big stairwell in the middle of the room the stairwell seems to be blocked off.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "you check the room! you see that if you look up there is a second floor but you just cant get onto the stairwell, there is text on the wall saying\"Dont go up go east M.E.G\", You think you should head back east.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 22,
+        "south": 0,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 22,
+      "name": "Room 22",
+      "description": "Make this NOW add almond water.",
+      "alreadyInRoomDescription": "you're in a dead end with an exit on the east side, there is a big stairwell in the middle of the room the stairwell seems to be blocked off.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "you check the room! you see that if you look up there is a second floor but you just cant get onto the stairwell, there is text on the wall saying\"Dont go up go east M.E.G\", You think you should head back east.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 22,
+        "south": 0,
+        "west": 0,
         "up": 0,
         "down": 0
       }
