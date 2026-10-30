@@ -1,1 +1,95 @@
-
+{
+  "mapName": "level-6.1",
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Room 1",
+      "description": "You enter the room and see many vending machines, some with candies and others with cold drinks like Coke. There's a fancy door leading to the next room (South)",
+      "alreadyInRoomDescription": "This is the description of room 1!",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room!",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 0,
+        "south": 2,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 2,
+      "name": "Room 2",
+      "description": "As you enter this room you see a bar, but there's no people or entities present. There's shelves filled with empty glass bottles. You see theres a metal door behind the counter (South). And the room continues (East). There's also a fancy door (North)",
+      "alreadyInRoomDescription": "This is the description of room 2!",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room!",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 1,
+        "east": 3,
+        "south": 5,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 3,
+      "name": "Room 3",
+      "description": "As you enter the room you see a lot of benches, tables and chairs probably where people can drink or eat their food from the bar. You can go to the counter (West) Or go to a fancy looking door (East)",
+      "alreadyInRoomDescription": "This is the description of room 3!",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room!",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 4,
+        "south": 0,
+        "west": 2,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 4,
+      "name": "Room 4",
+      "description": "As you enter the door and close it behind you it suddenly locks itself, The room is pretty empty except for the fancy wall and floor design. there's only one way to leave being the sliding glass doors which look like it brings you to a perimiter (North)",
+      "alreadyInRoomDescription": "This is the description of room 4!",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room!",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 0,
+        "south": 0,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 5,
+      "name": "Room 5",
+      "description": "You enter the metal door behind the counter and see a small bathroom, it looks very new and modern, the mirror at the sink looks like it just got cleaned. Theres no other directions except going back through the metal door (North)",
+      "alreadyInRoomDescription": "This is the description of room 5!",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room!",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 2,
+        "east": 0,
+        "south": 0,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    }
+  ]
+}
