@@ -1,1 +1,95 @@
-
+{
+  "mapName": "level-114",
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Room 1",
+      "description": "You enter the north-west corner of what looks like its your childhood room, your on the side of the room where your desk is located. It still has all those books which have undone homework. You can go east or south to explore your room further. you also see what looks like it is a book.",
+      "alreadyInRoomDescription": "This is the description of room 1!",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You grab the book and see that it is a journal, you go through a couple pages to what looks like a half ripped out page. on the visible side it says in a weird red paint (probably blood) which reads: 'SAY'. There might be another part of the page somewhere in the room.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 2,
+        "south": 4,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 2,
+      "name": "Room 2",
+      "description": "You enter the north-east corner of your room, your aquarium is in this part of your room. But.. Your goldfish isn't in the bowl. You can go west or south to explore your room further.",
+      "alreadyInRoomDescription": "This is the description of room 2!",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You checked the room!",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 0,
+        "south": 3,
+        "west": 1,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 3,
+      "name": "Room 3",
+      "description": "You enter the south-east corner of your room, this is the part of the room where you closet is located. You can go west or north to explore your room further. But you can also open the closet.",
+      "alreadyInRoomDescription": "This is the description of room 3!",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You open the closet to see your childhood clothes, they for sure don't fit you anymore. That doesn't matter much since theres also what looks like a half ripped paper which says 'I'M BORED', there might be another part of the paper somewhere in the room.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 2,
+        "east": 0,
+        "south": 0,
+        "west": 4,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 4,
+      "name": "Room 4",
+      "description": "You enter the south-west corner of your room, your door is here. But the door seems to have no light at all outside of it. Almost like there's a void behind of it. You can go east or north to explore your room further or you can go south to check whats behind the door.",
+      "alreadyInRoomDescription": "This is the description of room 4!",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You checked the room!",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 1,
+        "east": 3,
+        "south": 0,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 5,
+      "name": "Room 5",
+      "description": "You open the door and see theres a huge black void, this catches you off guard and you fall into the void. You close your eyes thinking its over but you only descent really slowly almost like your in water, but you can breathe. You can't really swim up so you quickly grab the little plank of your floor sticking out and pull yourself up. You can and should just go north.",
+      "alreadyInRoomDescription": "This is the description of room 5!",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You checked the room!",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 4,
+        "east": 0,
+        "south": 0,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    }
+  ]
+}
