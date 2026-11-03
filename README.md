@@ -57,7 +57,8 @@ additional descriptions for different levels.
 
 **29rjj29**  
 Made the room descriptions for Level 0, and researched things about the backrooms, and came up with the
-second sentence of the first message displayed by `main.py`.
+second sentence of the first message displayed by `main.py`,
+Made the entirety of level 4.
 
 ### References and Inspiration
 
@@ -94,7 +95,6 @@ The following updates are planned for future versions of the game:
 - **Add New Levels:** Implement the following levels:
   - Level 1
   - Level 2
-  - Level 4
   - Level 6.1
   - Level 11
   - Level 25
