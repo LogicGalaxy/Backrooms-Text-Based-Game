@@ -337,7 +337,7 @@
       "connections": {
         "north": 14,
         "east": 20,
-        "south": 23,
+        "south": 24,
         "west": 0,
         "up": 0,
         "down": 0
@@ -382,15 +382,69 @@
     {
       "id": 22,
       "name": "Room 22",
-      "description": "Make this NOW add almond water.",
-      "alreadyInRoomDescription": "you're in a dead end with an exit on the east side, there is a big stairwell in the middle of the room the stairwell seems to be blocked off.",
+      "description": "You walk into an intersection, there are exits on the north, east and west, you see a small table on the south side of the room, there are blacked out windows above the table.",
+      "alreadyInRoomDescription": "you see an intersection with exits north, east and south, there is a small table with blacked out windows on the south side of the room.",
       "alternativeDescription": "",
-      "checkRoomMessage": "you check the room! you see that if you look up there is a second floor but you just cant get onto the stairwell, there is text on the wall saying\"Dont go up go east M.E.G\", You think you should head back east.",
+      "checkRoomMessage": "you check the room! you see a bottle of almond water on the table its laying on its side with the cap pointing north.",
+      "darkRoom": "false",
+      "objects": ["almond water"],
+      "connections": {
+        "north": 17,
+        "east": 23,
+        "south": 0,
+        "west": 21,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 23,
+      "name": "Room 23",
+      "description": "You walk into a hallway with exits on the east and west, the ceiling in this room is very low you almost have to crouch down to go under it.",
+      "alreadyInRoomDescription": "you see a hallway with exits east and west, the ceiling in this room is very low you have to chrouch to get under it.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "you check the room! you see a faint arrow on the wall made with paint, its pointing west. "
       "darkRoom": "false",
       "objects": [],
       "connections": {
         "north": 0,
-        "east": 22,
+        "east": 24,
+        "south": 0,
+        "west": 22,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 24,
+      "name": "Room 24",
+      "description": "you walk into a corner and see exits on the north and west, you see a coat hanger in the east, south corner there is a single coat hanging on it.",
+      "alreadyInRoomDescription": "you're in a corner with exits north and west, there is a coat hanger in the east, south corner there is a single coat hanging on it.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "you check the room! You see a little note in the jacket it says \"M.E.G\""
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 19,
+        "east": 0,
+        "south": 0,
+        "west": 23,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 25,
+      "name": "Room 25",
+      "description": "you walk into a dead-end, with windows on the south side of the room, all of them are blacked out.",
+      "alreadyInRoomDescription": "you're in a dead end with windows on the south side of the room, all of them are blacked out.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "you check the room! you see text on the wall that says \"Go north, then west and then north - M.E.G\""
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 20,
+        "east": 0,
         "south": 0,
         "west": 0,
         "up": 0,
