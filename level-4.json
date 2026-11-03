@@ -403,7 +403,7 @@
       "description": "You walk into a hallway with exits on the east and west, the ceiling in this room is very low you almost have to crouch down to go under it.",
       "alreadyInRoomDescription": "you see a hallway with exits east and west, the ceiling in this room is very low you have to chrouch to get under it.",
       "alternativeDescription": "",
-      "checkRoomMessage": "you check the room! you see a faint arrow on the wall made with paint, its pointing west. "
+      "checkRoomMessage": "you check the room! you see a faint arrow on the wall made with paint, its pointing west. ",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -421,7 +421,7 @@
       "description": "you walk into a corner and see exits on the north and west, you see a coat hanger in the east, south corner there is a single coat hanging on it.",
       "alreadyInRoomDescription": "you're in a corner with exits north and west, there is a coat hanger in the east, south corner there is a single coat hanging on it.",
       "alternativeDescription": "",
-      "checkRoomMessage": "you check the room! You see a little note in the jacket it says \"M.E.G\""
+      "checkRoomMessage": "you check the room! You see a little note in the jacket it says \"M.E.G\"",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -439,7 +439,7 @@
       "description": "you walk into a dead-end, with windows on the south side of the room, all of them are blacked out.",
       "alreadyInRoomDescription": "you're in a dead end with windows on the south side of the room, all of them are blacked out.",
       "alternativeDescription": "",
-      "checkRoomMessage": "you check the room! you see text on the wall that says \"Go north, then west and then north - M.E.G\""
+      "checkRoomMessage": "you check the room! you see text on the wall that says \"Go north, then west and then north - M.E.G\"",
       "darkRoom": "false",
       "objects": [],
       "connections": {
