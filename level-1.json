@@ -40,12 +40,12 @@
     {
       "id": 19,
       "name": "Room 19 (start room)",
-      "description": "Your in a corner where you can go either East or South.",
+      "description": "Your in a corner where you can go either East or South. There's also a crate.",
       "alreadyInRoomDescription": "This is the description of room 19!",
       "alternativeDescription": "",
-      "checkRoomMessage": "There's not much in this room.",
+      "checkRoomMessage": "You open the crate and you see a lot of different things, like a wig. hand sanitizer and also Almond Milk",
       "darkRoom": "false",
-      "objects": [],
+      "objects": ["wig", "sanitizer", "almond milk"],
       "connections": {
         "north": 0,
         "east": 20,
@@ -63,7 +63,7 @@
       "alternativeDescription": "",
       "checkRoomMessage": "There's glass shards on the ground, don't trip!",
       "darkRoom": "false",
-      "objects": [],
+      "objects": ["glass shards"],
       "connections": {
         "north": 0,
         "east": 0,
@@ -97,9 +97,9 @@
       "description": "Your at a corridor going north, east and south.",
       "alreadyInRoomDescription": "This is the description of room 22!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You see a lot of wet puddles and a big pillar with a big '3' on it.",
+      "checkRoomMessage": "You see a lot of wet puddles and a big pillar with a big '3' on it. There's also a black paint bucket on the side of the pillar.",
       "darkRoom": "false",
-      "objects": [],
+      "objects": ["paint bucket"],
       "connections": {
         "north": 17,
         "east": 23,
@@ -153,7 +153,7 @@
       "alternativeDescription": "",
       "checkRoomMessage": "There's a couple of rocks scattered on the ground, looks like it came from the wall as if someone hit it with a pickaxe.",
       "darkRoom": "false",
-      "objects": [],
+      "objects": ["rocks"],
       "connections": {
         "north": 0,
         "east": 0,
@@ -169,7 +169,7 @@
       "description": "Your in the hallway, it seems a lot longer then when you entered. You can go either north or south.",
       "alreadyInRoomDescription": "This is the description of room 26!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You look back and see your actually walking away from the entrance while the end of the hallway still looks equally far away",
+      "checkRoomMessage": "You look back and see your actually walking away from the entrance while the end of the hallway still looks equally as far away",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -274,12 +274,12 @@
       {
         "id": 32,
         "name": "Room 32",
-        "description": "You walk into the room and see a corner going east and south.",
+        "description": "You walk into the room and see a corner going east and south. There's also a crate.",
         "alreadyInRoomDescription": "This is the description of room 32!",
         "alternativeDescription": "",
-        "checkRoomMessage": "You see a lot of wet puddles and a big pillar with a big '1' on it.",
+        "checkRoomMessage": "You open the crate and see a lot of different items like: Bandages, Almond Water and an Axe",
         "darkRoom": "false",
-        "objects": [],
+        "objects": ["bandages", "almond water", "axe"],
         "connections": {
           "north": 0,
           "east": 33,
@@ -313,9 +313,9 @@
           "description": "You walk into the room and see a corner going east and south.",
           "alreadyInRoomDescription": "This is the description of room 34!",
           "alternativeDescription": "",
-          "checkRoomMessage": "There's a cabinet on the side of the room, you check it but there's nothing inside.",
+          "checkRoomMessage": "There's a cabinet on the side of the room, you check and there's a phone charger and a shirt",
           "darkRoom": "false",
-          "objects": [],
+          "objects": ["shirt", "phone charger"],
           "connections": {
             "north": 0,
             "east": 35,
