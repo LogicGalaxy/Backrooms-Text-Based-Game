@@ -1,1 +1,203 @@
-
+{
+  "mapName": "Level 109",
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Room 1",
+      "description": "You walk into a room, there is a exit on the east, the room looks like an operating room with a operating table in the middle and cabinets on the west wall, there is a table full of sharp needles with rust on them, there is a big basket full of kids toys.",
+      "alreadyInRoomDescription": "you're in a room with exit on the east, the room looks like an operating room with a operating table in the middle and cabinets on the west wall, there is a table full of sharp needles with rust on them, there is a big basket full of kids toys.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! You see a bottle of almond water in the basket of toys, the needle looks like it has some weird black liquid in it, you should not touch it.",
+      "darkRoom": "false",
+      "objects": ["almond water"],
+      "connections": {
+        "north": 0,
+        "east": 2,
+        "south": 0,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 2,
+      "name": "starting room",
+      "description": "you see a long hallway with 2 rooms on the east and west, the hallway is leading south and there is a strange wall on the north.",
+      "alreadyInRoomDescription": "you're in a hallway leading south, there are 2 rooms on the east and west, on the north of the hallway is a strange wall.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you see a arrow on the floor pointing south.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 3,
+        "south": 5,
+        "west": 1,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 3,
+      "name": "room 3",
+      "description": "you walk into a big spacious room with exit on the west, there are big crates and chest of sort stacked on top of each other in the middle of the room, you see that one chest is open and has nothing in it.",
+      "alreadyInRoomDescription": "you're in a big room with exit on the west, there are big crates and chest of sort stacked on top of each other in the middle of the room, you see that one chest is open and has nothing in it.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you open a chest and there is a bottle of almond water inside of it together with a bandage, the bandage looks really old.",
+      "darkRoom": "false",
+      "objects": ["almond water", "bandage"],
+      "connections": {
+        "north": 0,
+        "east": 0,
+        "south": 0,
+        "west": 2,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 4,
+      "name": "room 4",
+      "description": "you walk into a relatively big room with exits on the east and south, it also has  a surgeon's table in the middle of it, there is a racket of rusty and sharp tools.",
+      "alreadyInRoomDescription": "you're in a relatively big room with exits on the east and south, it also has a surgeons table in the middle of it, there is a racket of rusty and sharp tools.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you see a red circle around the southern door, the circle seems to be made with blood, you cant tell how old the blood is.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 5,
+        "south": 7,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 5,
+      "name": "room 5",
+      "description": "you walk into a long hallway with doors on the north, east, south and west, on the ceiling of the hallway are dimly lit yellow tinted lights, the south door seems to be blocked by something on the other side.",
+      "alreadyInRoomDescription": "you're in a hallway with doors on the north, east, south and west, on the ceiling of the hallway are dimly lit yellow tinted lights.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you see a very big arrow pointing south.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 2,
+        "east": 6,
+        "south": 0,
+        "west": 4,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 6,
+      "name": "room 6",
+      "description": "you walk into a long but slim room with a door on the west, there is a reception on the far east side of the room, there is a humanoid figure behind the reception, it's tall pale but a little yellowish, it seems to be talking perfectly fine.",
+      "alreadyInRoomDescription": "you're in a long room with a door on the west, there is a reception desk on the far east side of the room, there is a humanoid figure with pale skin, it looks very tall and it seems to be speaking like a human.",
+      "alternativeDescription": "you slowly approach the humanoid figure as it says \"Come on here, i am a human just like you.\" it sounds like it doesnt have emotion, as you approach you find it more and more scary, you grab a sharp glass shard from the ground.\n You slowly approach, you're about halfway through the room as the figure stops talking and only says one word \"Come\" You are almost there and the figure looks a bit clearer it looks more like yellow like skin hanging kinda loose from the body, buut most interesting, the eyes, they are glowing white.\nYou're so close and then, The figure lunges towards you and before you can react it grabs you by you're left arm and grabs youre right leg and start's trying to tear you apart, you firmly grip the glass shard and start stabbing it in its eyes, he lets out a really loud screech, as you keep stabbing him througout his entire face, he drops to the ground, you fall back onto the ground, the glass shard clatters out of youre hand, you look at his lifeless body laying on the ground, you stand up and try grabbing his body, you see that his skin comes off easily.\nHe was wearing a humans skin, you're scared hes gonna wake up again so you run towards the exit.",
+      "checkRoomMessage": "You check the room! you see that the humanoid figure has slightly glowing eyes, the figure is saying \"come here i am a human just like you\"its seems to be talking without emotion.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 0,
+        "south": 0,
+        "west": 5,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 7,
+      "name": "room 7",
+      "description": "you walk into a decently small room with doors on the north and east, almost the entire room is covered with yellow plastic sheets it looks like a place that a virus broke out, you should get out really quick.",
+      "alreadyInRoomDescription": "you're in a small room with doors on the north and east, almost the entire room is covered with yellow plastic sheets it looks like a place that a virus broke out, you should get out really quick.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you see a little bump under the yellow tarp, it looks like an arrow pointing east, you think you should get out really quickly before you get infected.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 4,
+        "east": 8,
+        "south": 0,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 8,
+      "name": "room 8",
+      "description": "you see a long hallway with a door on every side of the room, the floor in this room is covered with black mold, the northern door has a chair between the door handle and door so it doesnt open.",
+      "alreadyInRoomDescription": "you see a long hallway with a door on all sides of the room, the floor has a lot of spots of black mold.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you see one of the spots of black mold looks like an arrow pointing south.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 9,
+        "south": 11,
+        "west": 7,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 9,
+      "name": "room 9",
+      "description": "you see a dead-end with a door on the west, the room looks kinda like a operating room, it has a surgeon table in the middle of the room, there is a coat hanger next to the door.",
+      "alreadyInRoomDescription": "you're in a dead-end with door on the west, the room looks like a operating room, it has a surgeon table in the middle of the room, there is a coat hanger next to the door.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you see that the coat hanger has one crooked arm, the crooked arm is pointing sout but there isnt a way to go south in this room.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 0,
+        "south": 0,
+        "west": 8,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 10,
+      "name": "room 10",
+      "description": "you are in a dead end, with a door on the east, the room looks like a pharmacy with a reception-like desk on the west side of the room.",
+      "alreadyInRoomDescription": "you're in a dead end, with a door on the east, the room kinda looks like a pharmacy with a reception-like desk on the west side of the room.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you see that in the back of the pharmacy is a chest with one singular bandage in it.",
+      "darkRoom": "false",
+      "objects": ["bandage"],
+      "connections": {
+        "north": 0,
+        "east": 11,
+        "south": 0,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 11,
+      "name": "room 11",
+      "description": "you're in a hallway with doors on all sides of the room, there is a big pool of water in the middle of the room.",
+      "alreadyInRoomDescription": "you are in a hallway with doors on all sides of the room, there is a big pool of water in the middle of the room.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "you check the room! the pool of water is shaped like an arrow pointing south.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 8,
+        "east": 12,
+        "south": 14,
+        "west": 10,
+        "up": 0,
+        "down": 0
+      }
+    }
+  ]
+}
