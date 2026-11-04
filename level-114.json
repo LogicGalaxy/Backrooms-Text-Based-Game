@@ -9,7 +9,7 @@
       "alternativeDescription": "",
       "checkRoomMessage": "You grab the book and see that it is a journal, you go through a couple pages to what looks like a half ripped out page. on the visible side it says in a weird red paint (probably blood) which reads: 'SAY'. There might be another part of the page somewhere in the room.",
       "darkRoom": "false",
-      "objects": [],
+      "objects": ["journal"],
       "connections": {
         "north": 0,
         "east": 2,
@@ -25,9 +25,9 @@
       "description": "You enter the north-east corner of your room, your aquarium is in this part of your room. But.. Your goldfish isn't in the bowl. You can go west or south to explore your room further.",
       "alreadyInRoomDescription": "This is the description of room 2!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You checked the room!",
+      "checkRoomMessage": "You check the room and see some fish food with the cap on it. The room is probably cursed because as a kid you always forget to put the cap on the food.",
       "darkRoom": "false",
-      "objects": [],
+      "objects": ["fish food"],
       "connections": {
         "north": 0,
         "east": 0,
@@ -61,7 +61,7 @@
       "description": "You enter the south-west corner of your room, your door is here. But the door seems to have no light at all outside of it. Almost like there's a void behind of it. You can go east or north to explore your room further or you can go south to check whats behind the door.",
       "alreadyInRoomDescription": "This is the description of room 4!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You checked the room!",
+      "checkRoomMessage": "You bend over and check what is behind the door but see nothing behind it, should you open it?",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -79,7 +79,7 @@
       "description": "You open the door and see theres a huge black void, this catches you off guard and you fall into the void. You close your eyes thinking its over but you only descent really slowly almost like your in water, but you can breathe. You can't really swim up so you quickly grab the little plank of your floor sticking out and pull yourself up. You can and should just go north.",
       "alreadyInRoomDescription": "This is the description of room 5!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You checked the room!",
+      "checkRoomMessage": "The void seems like its pitch black, you don't even want to know what would happen if you didn't catch yourself.",
       "darkRoom": "false",
       "objects": [],
       "connections": {
