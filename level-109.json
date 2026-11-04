@@ -198,6 +198,114 @@
         "up": 0,
         "down": 0
       }
+    },
+    {
+      "id": 12,
+      "name": "room 12",
+      "description": "you walk into a room that looks like a storage closet with one door on the west, in the back of the room are chest-like crates.",
+      "alreadyInRoomDescription": "you're in a room that looks like a storage closet with one door on the west side of the room, in the back of the room are chest-like crates.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you open one of the crates and find a bandage that looks like it has been there for very long.",
+      "darkRoom": "false",
+      "objects": ["bandage"],
+      "connections": {
+        "north": 0,
+        "east": 0,
+        "south": 0,
+        "west": 11,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 13,
+      "name": "room 13",
+      "description": "you walk into a dead end with a door on the east, there is a surgeons table in the middle of the room, there is a tray with sharp and rusty tools.",
+      "alreadyInRoomDescription": "you're in a dead end with a door on the east, there is a surgeons table in the middle of the room, there is a tray with sharp and rusty tools.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! there is a little note on the tray of tools saying \"Dont trust the voices in the side rooms M.E.G\"you really trust this so called M.E.G",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 14,
+        "south": 0,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 14,
+      "name": "room 14",
+      "description": "you walk into a hallway with doors on the north, south and west, the lights in this room are really dimly lit and they make a faint buzzing noise.",
+      "alreadyInRoomDescription": "you're in a hallway with doors on the north, south and west, the lights in this room are really dimly lit and they make afaint buzzing noise.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you see a faint arrow on the floor pointing south.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 11,
+        "east": 0,
+        "south": 16,
+        "west": 13,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 15,
+      "name": "room 15",
+      "description": "you walk into a dead end with a door in the east, the room is filled with random formed walls, you hear a humanoid noise coming from behind a wall.",
+      "alreadyInRoomDescription": "you're in a dead end with door in the east, the room is filled with walls with random formations, you hear a humanoid voice from behind a wall.",
+      "alternativeDescription": "You check behind the wall and see a humanoid figure with yellowy pale skin and white glowing eyes, it doesnt seem to notice you, you should leave right now.",
+      "checkRoomMessage": "You check the room! you see a note on the back of the wall with a humanoid voice saying \"DO NOT GO TO THAT VOICE M.E.G\"You really dont wanna go behind the wall.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 16,
+        "south": 0,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 16,
+      "name": "room 16",
+      "description": "you walk into a hallway with doors on the north, east, south and west, the door on the south has an red glowing exit sign on it.",
+      "alreadyInRoomDescription": "you're in a hallway with doors on all sides of the room, the door on the south has an red glowing exit sign on it.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! there is a big circle drawn around the southern door.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 14,
+        "east": 17,
+        "south": ???????????????????????????????????????????????????,
+        "west": 15,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 17,
+      "name": "room 17",
+      "description": "you walk into a dead-end with a door on the west side of the room, the entire room is covered with a yellow tarp, as if a disease broke out here.",
+      "alreadyInRoomDescription": "you're in a dead end with a door on the west side of the room, the entire rooom is covered in yellow tarp, as if a disease broke out here",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! there is a arrow pointing sout-west on the southern wall.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 0,
+        "south": 0,
+        "west": 16,
+        "up": 0,
+        "down": 0
+      }
     }
   ]
 }
