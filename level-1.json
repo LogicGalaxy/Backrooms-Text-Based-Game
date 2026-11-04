@@ -7,7 +7,7 @@
       "description": "You walk into the room and see a corner going east and south.",
       "alreadyInRoomDescription": "This is the description of room 17!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "You see a lot of wet puddles and a big pillar with a big '1' on it.",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -25,7 +25,7 @@
       "description": "You walk into the room seeing a corner going both south and west.",
       "alreadyInRoomDescription": "This is the description of room 18!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "You see a lot of wet puddles and a big pillar with a big '2' on it.",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -43,7 +43,7 @@
       "description": "Your in a corner where you can go either East or South.",
       "alreadyInRoomDescription": "This is the description of room 19!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "There's not much in this room.",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -61,7 +61,7 @@
       "description": "Your in a dead end, you can only go west.",
       "alreadyInRoomDescription": "This is the description of room 20!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "There's glass shards on the ground, don't trip!",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -79,7 +79,7 @@
       "description": "Your in the hallway but it still looks like it keeps going. You can go North or South.",
       "alreadyInRoomDescription": "This is the description of room 21!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "The hallway feels longer and longer almost like its growing.",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -97,7 +97,7 @@
       "description": "Your at a corridor going north, east and south.",
       "alreadyInRoomDescription": "This is the description of room 22!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "You see a lot of wet puddles and a big pillar with a big '3' on it.",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -115,7 +115,7 @@
       "description": "Your in a room where you can go in all directions.",
       "alreadyInRoomDescription": "This is the description of room 23!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "You see a lot of wet puddles and a big pillar with a big '4' on it.",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -133,7 +133,7 @@
       "description": "Your in an intersection which goes north, east and west.",
       "alreadyInRoomDescription": "This is the description of room 24!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "Nothing much to see here, maybe go in a different room.",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -148,17 +148,17 @@
     {
       "id": 25,
       "name": "Room 25",
-      "description": "Your in a hallway which goes both north and south.",
+      "description": "Your in a hallway which goes both west and south.",
       "alreadyInRoomDescription": "This is the description of room 25!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "There's a couple of rocks scattered on the ground, looks like it came from the wall as if someone hit it with a pickaxe.",
       "darkRoom": "false",
       "objects": [],
       "connections": {
-        "north": 24,
+        "north": 0,
         "east": 0,
         "south": 30,
-        "west": 0,
+        "west": 24,
         "up": 0,
         "down": 0
       }
@@ -169,7 +169,7 @@
       "description": "Your in the hallway, it seems a lot longer then when you entered. You can go either north or south.",
       "alreadyInRoomDescription": "This is the description of room 26!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "You look back and see your actually walking away from the entrance while the end of the hallway still looks equally far away",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -187,7 +187,7 @@
       "description": "You walk into the room seeing a corner which goes both north and east.",
       "alreadyInRoomDescription": "This is the description of room 27!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "You see a lot of wet puddles and a big pillar with a big '5' on it.",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -205,7 +205,7 @@
       "description": "You walk into the room seeing a corner which goes both north and west.",
       "alreadyInRoomDescription": "This is the description of room 28!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "You see a lot of wet puddles and a big pillar with a big '6' on it.",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -223,7 +223,7 @@
       "description": "You walk into the room and see a dead end... You can only go east.",
       "alreadyInRoomDescription": "This is the description of room 29!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "It smells like rotten eggs here, get out of the room by going west or else you might just throw up.",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -241,7 +241,7 @@
       "description": "Your enter the room and see that you can go in any direction.",
       "alreadyInRoomDescription": "This is the description of room 30!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "Its a pretty open room, you can feel a small breeze comming from the eastern side.",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -259,25 +259,7 @@
       "description": "Your enter the room and see that theres a pretty long hallway going north. The end looks pretty dark, do you proceed?",
       "alreadyInRoomDescription": "This is the description of room 31!",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
-      "darkRoom": "false",
-      "objects": [],
-      "connections": {
-        "north": 26,
-        "east": 0,
-        "south": 0,
-        "west": 30,
-        "up": 0,
-        "down": 0
-      }
-    },
-        {
-      "id": 31,
-      "name": "Room 31",
-      "description": "Your enter the room and see that theres a pretty long hallway going north. The end looks pretty dark, do you proceed?",
-      "alreadyInRoomDescription": "This is the description of room 31!",
-      "alternativeDescription": "",
-      "checkRoomMessage": "You check the room!",
+      "checkRoomMessage": "Something feels odd about this room, not like its a bad thing.",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -295,7 +277,7 @@
         "description": "You walk into the room and see a corner going east and south.",
         "alreadyInRoomDescription": "This is the description of room 32!",
         "alternativeDescription": "",
-        "checkRoomMessage": "You check the room!",
+        "checkRoomMessage": "You see a lot of wet puddles and a big pillar with a big '1' on it.",
         "darkRoom": "false",
         "objects": [],
         "connections": {
@@ -313,7 +295,7 @@
           "description": "You walk into the room and see a corner going west and south.",
           "alreadyInRoomDescription": "This is the description of room 32!",
           "alternativeDescription": "",
-          "checkRoomMessage": "You check the room!",
+          "checkRoomMessage": "You see a lot of wet puddles and a big pillar with a big '2' on it.",
           "darkRoom": "false",
           "objects": [],
           "connections": {
@@ -331,7 +313,7 @@
           "description": "You walk into the room and see a corner going east and south.",
           "alreadyInRoomDescription": "This is the description of room 34!",
           "alternativeDescription": "",
-          "checkRoomMessage": "You check the room!",
+          "checkRoomMessage": "There's a cabinet on the side of the room, you check it but there's nothing inside.",
           "darkRoom": "false",
           "objects": [],
           "connections": {
@@ -349,7 +331,7 @@
           "description": "You walk into the room and see that you can go into any direction.",
           "alreadyInRoomDescription": "This is the description of room 35!",
           "alternativeDescription": "",
-          "checkRoomMessage": "You check the room!",
+          "checkRoomMessage": "You see a lot of wet puddles and a big pillar with a big '1' on it.",
           "darkRoom": "false",
           "objects": [],
           "connections": {
@@ -367,7 +349,7 @@
           "description": "You walk into the room and see a corner going west and south.",
           "alreadyInRoomDescription": "This is the description of room 36!",
           "alternativeDescription": "",
-          "checkRoomMessage": "You check the room!",
+          "checkRoomMessage": "You see a lot of wet puddles and a big pillar with a big '2' on it.",
           "darkRoom": "false",
           "objects": [],
           "connections": {
@@ -385,7 +367,7 @@
           "description": "You walk into the room and see a corner going east and north.",
           "alreadyInRoomDescription": "This is the description of room 37!",
           "alternativeDescription": "",
-          "checkRoomMessage": "You check the room!",
+          "checkRoomMessage": "You see a lot of wet puddles and a big pillar with a big '3' on it.",
           "darkRoom": "false",
           "objects": [],
           "connections": {
@@ -403,7 +385,7 @@
           "description": "You walk into the room and see that there's an intersection, you can go north, east and west.",
           "alreadyInRoomDescription": "This is the description of room 38!",
           "alternativeDescription": "",
-          "checkRoomMessage": "You check the room!",
+          "checkRoomMessage": "You see a lot of wet puddles and a big pillar with a big '4' on it.",
           "darkRoom": "false",
           "objects": [],
           "connections": {
@@ -421,7 +403,7 @@
           "description": "You walk into the room and see a corner going west and north.",
           "alreadyInRoomDescription": "This is the description of room 39!",
           "alternativeDescription": "",
-          "checkRoomMessage": "You check the room!",
+          "checkRoomMessage": "The light above you is flickering, someone or something probably threw a lot of water on it because there's some water dripping off it.",
           "darkRoom": "false",
           "objects": [],
           "connections": {
@@ -439,7 +421,7 @@
           "description": "You walk into the room and see a corner where you can go either east or north.",
           "alreadyInRoomDescription": "This is the description of room 40!",
           "alternativeDescription": "",
-          "checkRoomMessage": "You check the room!",
+          "checkRoomMessage": "You see a lot of wet puddles and a big pillar with a big '3' on it.",
           "darkRoom": "false",
           "objects": [],
           "connections": {
@@ -457,7 +439,7 @@
           "description": "You walk into the room and see a corner where you can go either west or north.",
           "alreadyInRoomDescription": "This is the description of room 41!",
           "alternativeDescription": "",
-          "checkRoomMessage": "You check the room!",
+          "checkRoomMessage": "You see a lot of wet puddles and a big pillar with a big '4' on it.",
           "darkRoom": "false",
           "objects": [],
           "connections": {
