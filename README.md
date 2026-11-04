@@ -72,6 +72,24 @@ to other levels.
 
 [Backrooms Wiki Level 0](https://backrooms-wiki.wikidot.com/level-0)
 
+[Backrooms Wiki Level 1](https://backrooms-wiki.wikidot.com/level-1)
+
+[Backrooms Wiki Level 2](https://backrooms-wiki.wikidot.com/level-2)
+
+[Backrooms Wiki Level 4](https://backrooms-wiki.wikidot.com/level-4)
+
+[Backrooms Wiki Level 6.1](https://backrooms-wiki.wikidot.com/level-6-1)
+
+[Backrooms Wiki Level 11](https://backrooms-wiki.wikidot.com/level-11)
+
+[Backrooms Wiki Level 25](https://backrooms-wiki.wikidot.com/level-25)
+
+[Backrooms Wiki Level 37](https://backrooms-wiki.wikidot.com/level-37)
+
+[Backrooms Wiki Level 109](https://backrooms-wiki.wikidot.com/level-109)
+
+[Backrooms Wiki Level 114](https://backrooms-wiki.wikidot.com/level-114)
+
 **Dungeon Loom**  
 Used during the initial creation of `map.json`. The map was subsequently
 changed and expanded significantly for this project.
@@ -95,6 +113,7 @@ The following updates are planned for future versions of the game:
 - **Add New Levels:** Implement the following levels:
   - Level 1
   - Level 2
+  - Level 4
   - Level 6.1
   - Level 11
   - Level 25
