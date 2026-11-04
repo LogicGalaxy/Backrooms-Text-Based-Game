@@ -22,7 +22,7 @@
     {
       "id": 2,
       "name": "Room 2",
-      "description": "You walk into the room and see a corner going north and west, There is yellow tinted light on the cealing.",
+      "description": "You walk into the room and see a corner going north and west, There is yellow tinted light on the ceiling.",
       "alreadyInRoomDescription": "You're in a corner going north and west,There's a yellow light with a very weird tint.",
       "alternativeDescription": "",
       "checkRoomMessage": "You check the room, you see multiple faint arrows pointing west.",
@@ -76,7 +76,7 @@
     {
       "id": 5,
       "name": "Room 5",
-      "description": "You walk into a corner going north and east, you hear faint schratching on the otherside of the wall.",
+      "description": "You walk into a corner going north and east, you hear faint scratching on the otherside of the wall.",
       "alreadyInRoomDescription": "You're in a corner going north and east, There is a scratching noise on the otherside of the wall.",
       "alternativeDescription": "",
       "checkRoomMessage": "You check the room, you see a red arrow leading north, you think its made of blood.",
@@ -130,7 +130,7 @@
     {
       "id": 8,
       "name": "Room 8",
-      "description": "You are at a dead end going back east, you see a torch hanging on the wall, There have not been torches anywhere else.",
+      "description": "You are at a dead end going back east, you see a torch hanging on the wall, there have not been torches anywhere else.",
       "alreadyInRoomDescription": "You're in a dead end you should go back east, there's a torch hanging on the wall.",
       "alternativeDescription": "",
       "checkRoomMessage": "You check the room, you see a torch hanging on the wall, you think you can reach it",
@@ -221,7 +221,7 @@
       "id": 13,
       "name": "Room 13",
       "description": "You walk into a room full of pillars in a grid pattern, you are in an intersection going north, east and south.",
-      "alreadyInRoomDescription": "You're in a room with so many pillars and openings going north east and south, the pillers seem to be kinde asymmetryccal at some places like it has changed.",
+      "alreadyInRoomDescription": "You're in a room with so many pillars and openings going north east and south, the pillers seem to be kind of asymmetrical at some places like it has changed.",
       "alternativeDescription": "",
       "checkRoomMessage": "You check the room, there's text saying, keep going to leave.",
       "darkRoom": "false",
@@ -238,10 +238,10 @@
     {
       "id": 14,
       "name": "Room 14",
-      "description": " You walk into a corner going east and south, You hear a whisper saying, go east.",
+      "description": "You walk into a corner going east and south, you hear a whisper saying: 'go east'",
       "alreadyInRoomDescription": "You're in a corner going east and south, there's a whisper saying go east.",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room, There is a Really big red arrow leading east.",
+      "checkRoomMessage": "You check the room, there is a really big red arrow leading east.",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -259,7 +259,7 @@
       "description": "You walk into another corner, This one is going south and west, you see a faint shadow, the wall is kinda distorted",
       "alreadyInRoomDescription": "You're in a corner going south and west, there is a faint shadow, the wall is abit distorted.",
       "alternativeDescription": "You approach the shadow and as you do it starts to shake, you take a step, the shadow starts turning around, you take another step, the shadow start shaking more, and more, you take a third step, the shadow has turned aorund fully and is looking at you, you take one final step, And IT LUNGES AT YOU, you stumble back and get scared by it, it runs at you, it starts attacking youre shadow you dont feel it but you do see youre shadow getting hurt and, then the shadow monster runs away to the west and youre left all alone in that room wondering what happend or if he will come back.",
-      "checkRoomMessage": "You look over youre shoulder, you see a weird humanoid shadow standing in the corner of the room.",
+      "checkRoomMessage": "You look over your shoulder, you see a weird humanoid shadow standing in the corner of the room.",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -274,7 +274,7 @@
     {
       "id": 16,
       "name": "Room 16",
-      "description": "You walk into a corner going north and west, You hear a bit of schratching coming from the north.",
+      "description": "You walk into a corner going north and west, You hear a bit of scratching coming from the north.",
       "alreadyInRoomDescription": "you're in a corner going north and west, there is a faint sound of scratching coming from the room up north.",
       "alternativeDescription": "",
       "checkRoomMessage": "You check the room, you see a faint arrow pointing west",
