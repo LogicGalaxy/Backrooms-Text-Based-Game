@@ -39,24 +39,6 @@
       }
     },
     {
-      "id": 2,
-      "name": "Room 2",
-      "description": "you walk into a corner wtih exits on the south and west, there is a bench like shape under the water on the north side of the room, the wall on the east side is round.",
-      "alreadyInRoomDescription": "you're in a corner with exits on the south and west, there is a bench like shape under the water on the north side of the room, the wall on the east side is round.",
-      "alternativeDescription": "",
-      "checkRoomMessage": "You check the room! you knock on the east wall and hear that its hollow, you should prabably try going behind it.",
-      "darkRoom": "false",
-      "objects": [],
-      "connections": {
-        "north": 0,
-        "east": 0,
-        "south": 7,
-        "west": 1,
-        "up": 0,
-        "down": 0
-      }
-    },
-    {
       "id": 3,
       "name": "Room 3",
       "description": "You walk into a dead end with exit on the east, the room is dark.",
@@ -111,28 +93,10 @@
       }
     },
     {
-      "id": 5,
-      "name": "Room 5",
-      "description": "you walk into a corner with an exit on the south and west, there is a bg spot in the floor it looks like an hole you could potentially go down but it's very far down so youll drown.",
-      "alreadyInRoomDescription": "you're in a corner with an exit on the south and west, there is a big spot in the floor it looks like an hole you could potentially go down but its very far down so youll drown.",
-      "alternativeDescription": "",
-      "checkRoomMessage": "You check the room! you see the bottom of the hole looks like an entirely different level, the water seems to be infinite as it is not draining the room.",
-      "darkRoom": "false",
-      "objects": [],
-      "connections": {
-        "north": 0,
-        "east": 0,
-        "south": 10,
-        "west": 4,
-        "up": 0,
-        "down": 0
-      }
-    },
-    {
       "id": 6,
       "name": "Room 6",
-      "description": "you walk into a dead end with an exit on the east, there is a light on the ceiling but its shut off, the water is relaxing youre muscles.",
-      "alreadyInRoomDescription": "you're in a dead end with an exit on the east, there is a light on the ceiling but its shut off, the water is relaxing youre muscles.",
+      "description": "you walk into a corner with a exits on the east and south, there is a light on the ceiling but its shut off, the water is relaxing youre muscles.",
+      "alreadyInRoomDescription": "you're in a corner with a exits on the east and south, there is a light on the ceiling but its shut off, the water is relaxing youre muscles.",
       "alternativeDescription": "",
       "checkRoomMessage": "You check the room! There is a weird white spot in the water, it does not look dangerous.",
       "darkRoom": "false",
@@ -140,7 +104,7 @@
       "connections": {
         "north": 0,
         "east": 7,
-        "south": 0,
+        "south": 11,
         "west": 0,
         "up": 0,
         "down": 0
@@ -167,10 +131,10 @@
     {
       "id": 8,
       "name": "Room 8",
-      "description": "deze kamer maken!",
-      "alreadyInRoomDescription": "you're in a intersection with exits on the north, east and west, there is a bright glowing light on the ceiling, it sort of has a yellow tint but you dont know if the tint is real or just youre eyes.",
+      "description": "You walk into a hallway with exits on the east and west, there is a round wall on the south side of the room.",
+      "alreadyInRoomDescription": "you're in a hallway with exits on the east and west, there is a round wall on the south side of the room.",
       "alternativeDescription": "",
-      "checkRoomMessage": "You check the room! You see a faint rippling patern in the water it seems to be coming from the east.",
+      "checkRoomMessage": "You check the room! you see that the round wall is pertruding into the room, it seems there's something on the other side.",
       "darkRoom": "false",
       "objects": [],
       "connections": {
@@ -178,6 +142,312 @@
         "east": 9,
         "south": 0,
         "west": 7,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 9,
+      "name": "Room 9",
+      "description": "you walk into an intersection with exits on the east, south and west of the room, there is a big round pillar in the middle of the room, you can normally walk around it.",
+      "alreadyInRoomDescription": "you're in a intersection with exits on the east, south and west of the room, there is a big round pillar in the middle of the room, you can normally walk around it.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you see a weird machine on the north wall, the machine seems to be trying to crack one of the tiles on the wall, it has'nt succeeded.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 10,
+        "south": 14,
+        "west": 8,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 10,
+      "name": "Room 10",
+      "description": "you walk into a corner with exits on the north and west, there is a very bright light on the ceiling.",
+      "alreadyInRoomDescription": "you're in a corner with exits on the north and west, there is a very bright light on the ceiling.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you see that the light has a small spot that is yellow, it looks like an arrow pointing west.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 5,
+        "east": 0,
+        "south": 0,
+        "west": 9,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 11,
+      "name": "Room 11",
+      "description": "you walk into a intersection with exits on the north, east and south, the water is really relaxing and it feels kinda hard to think.",
+      "alreadyInRoomDescription": "you're in a intersection with exits on the north, east and south, the water is really relaxing and it feels kinda hard to think.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you feel relaxed and you notice youre eyes are also more relaxed so you see more, there is nothing out of the ordinary in this room.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 6,
+        "east": 12,
+        "south": 16,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 12,
+      "name": "Room 12",
+      "description": "you see a hallway with exits on the east and west, there is a different pattern of tiles than the rest of the level.",
+      "alreadyInRoomDescription": "you're in a hallway with exits on the east and west, there is a different pattern of tiles than the rest of the level.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you see that the wall with a different pattern of tiles is kinda shifting into its normal form.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 13,
+        "south": 0,
+        "west": 11,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 13,
+      "name": "Room 13",
+      "description": "you walk into a intersection with exits on the east, south and west, there is a circle in the middle of the room where the water reaches deeper.",
+      "alreadyInRoomDescription": "you're in a intersection with exits on the east, south and west, there is a circle in the middle of the room where the water reaches deeper.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you see a faint rippling pattern in the water coming from the south.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 14,
+        "south": 18,
+        "west": 12,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 14,
+      "name": "Room 14",
+      "description": "you walk into a intersection with exits on the north, south and west, there is a circular structure in the south east corner.",
+      "alreadyInRoomDescription": "you're in a intersection with exits on the north, south and west, there is a circular structure in the south east corner.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you see a faint rippling pattern in the water coming from the west.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 9,
+        "east": 0,
+        "south": 19,
+        "west": 13,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 15,
+      "name": "Room 15",
+      "description": "you walk into a dead end with an exit on the south, the room is really dark and you think you see something on the north side of the room but you're not sure.",
+      "alreadyInRoomDescription": "you're in a dead end with an exit on the south, the room is really dark and you think you see something on the north side of the room but you're not sure.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you see a weird generator thing on the east wall, it seems to be the thing creating the ripple in the water.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 0,
+        "south": 20,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 16,
+      "name": "Room 16",
+      "description": "you walk into a intersection with exits on the north, east and south, there is a bench shaped structure on the west side of the room.",
+      "alreadyInRoomDescription": "you're in a intersection with exits on the north, east and south, there is a bench shaped structure on the west side of the room.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you see a faint rippling pattern in the water, it seems to be coming from the south.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 11,
+        "east": 17,
+        "south": 21,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 17,
+      "name": "Room 17",
+      "description": "you walk into a hallway with exits on the east and west, there is a pillar like structure in the middle of the room.",
+      "alreadyInRoomDescription": "you're in a hallway with exits on the east and west, there is a pillar like structure in the middle of the room.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you see a faint rippling pattern in the water, it seems to be coming from the west.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 18,
+        "south": 0,
+        "west": 16,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 18,
+      "name": "Room 18",
+      "description": "You walk into a intersection with exits on the north, south and west, there is a bright light in the middle of the room.",
+      "alreadyInRoomDescription": "you're in a intersection with exits on the north, south and west, there is a bright light in the middle of the room.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you see a faint rippling pattern in the water, it seems to be coming from the west.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 13,
+        "east": 0,
+        "south": 23,
+        "west":17,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 19,
+      "name": "Room 19",
+      "description": "You walk into a intersection with exits on the north, east and south of the room, there is a pillar in the middle of the room.",
+      "alreadyInRoomDescription": "you're in a intersection with exits on the north, east and south of the room, there is a pillar in the middle of the room.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you see a faint rippling pattern in the water, it seems to be coming from the east.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 14,
+        "east": 20,
+        "south": 24,
+        "west":0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 20,
+      "name": "Room 20",
+      "description": "You walk into a intersection with exits on the north, south and west, there is a hollowed out pillar on the eastern wall.",
+      "alreadyInRoomDescription": "you're in a intersection with exits on the north, south and west, there is a hollowed out pillar on the eastern wall.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you see a faint rippling pattern in the water, it seems to be coming from the north.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 15,
+        "east": 0,
+        "south": 25,
+        "west":0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 21,
+      "name": "Room 21",
+      "description": "You walk into a corner with exits on the north and east, there is a dimly shining light on the ceiling.",
+      "alreadyInRoomDescription": "you're in a corner with exits on the north and east, there is a dimly shining light on the ceiling.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you see a faint rippling pattern in the water, it seems to be coming from the east.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 16,
+        "east": 22,
+        "south": 0,
+        "west":0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 22,
+      "name": "Room 22",
+      "description": "you walk into a hallway with exits on the east and west, the entire wall is covered with tiles in a grid pattern, none of the tiles seem cracked or even scratched.",
+      "alreadyInRoomDescription": "you're in a hallway with exits on the east and west, the entire wall is covered with tiles in a grid pattern, none of the tiles seem cracked or even scratched.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you see a faint rippling pattern in the water, it seems to be coming from the east.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 23,
+        "south": 0,
+        "west": 21,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 23,
+      "name": "Room 23",
+      "description": "you walk into a intersection with exits on the north, east and west, there is a hole in the floor it seems just big enough to fit through but its about 30 meters deep so you would drown if you tried.",
+      "alreadyInRoomDescription": "you're in a intersection with exits on the north, east and west, there is a hole in the floor it seems just big enough to fit through but its about 30 meters deep so you would drown if you tried.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you see a faint rippling pattern in the water, it seems to be coming from the east.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 18,
+        "east": 24,
+        "south": 0,
+        "west": 22,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 24,
+      "name": "Room 24",
+      "description": "you walk into a corner with exits in the north and west, the room normal looks pretty normal, the water feels very relaxing on youre muscles.",
+      "alreadyInRoomDescription": "you're in a corner with exits in the north and west, the room normal looks pretty normal, the water feels very relaxing on youre muscles.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room! you see a faint rippling pattern in the water, it seems to be coming from the north.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 19,
+        "east": 0,
+        "south": 0,
+        "west": 23,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 25,
+      "name": "Room 25",
+      "description": "you walk into a dead end with an exit on the north, the room is really dark.",
+      "alreadyInRoomDescription": "you're in a dead end with an exit on the north, the room is really dark.",
+      "alternativeDescription": "You light up the room, you are still in a dead end with an exit in the north but you see that on the south wall of the room is text saying \"Go straight north even if you cant anymore! M.E.G.\"You trust M.E.G.",
+      "checkRoomMessage": "You check the room! you see a faint rippling pattern in the water, it seems to be coming from the north, the rest of the room is really dark.",
+      "darkRoom": "true",
+      "objects": [],
+      "connections": {
+        "north": 20,
+        "east": 0,
+        "south": 0,
+        "west": 0,
         "up": 0,
         "down": 0
       }
