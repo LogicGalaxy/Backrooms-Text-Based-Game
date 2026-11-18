@@ -1,293 +1,293 @@
 {
-  "mapName": "level-11",
-  "rooms": [
-    {
-      "id": 1,
-      "name": "Room 1",
-      "description": "This is the description of room 1!",
-      "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 1!",
-      "alternativeDescription": "",
-      "checkRoomMessage": "This is the checkroommessage of room 1!",
-      "darkRoom": "false",
-      "objects": [],
-      "connections": {
-        "north": 0,
-        "east": 2,
-        "south": 5,
-        "west": 0,
-        "up": 0,
-        "down": 0
-      }
-    },
-    {
-      "id": 2,
-      "name": "Room 2",
-      "description": "This is the description of room 2!",
-      "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 2!",
-      "alternativeDescription": "",
-      "checkRoomMessage": "This is the checkroommessage of room 2!",
-      "darkRoom": "false",
-      "objects": [],
-      "connections": {
-        "north": 0,
-        "east": 3,
-        "south": 6,
-        "west": 1,
-        "up": 0,
-        "down": 0
-      }
-    },
-    {
-      "id": 3,
-      "name": "Room 3",
-      "description": "This is the description of room 3!",
-      "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 3!",
-      "alternativeDescription": "",
-      "checkRoomMessage": "This is the checkroommessage of room 3!",
-      "darkRoom": "false",
-      "objects": [],
-      "connections": {
-        "north": 0,
-        "east": 4,
-        "south": 7,
-        "west": 2,
-        "up": 0,
-        "down": 0
-      }
-    },
-    {
-      "id": 4,
-      "name": "Room 4",
-      "description": "This is the description of room 4!",
-      "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 4!",
-      "alternativeDescription": "",
-      "checkRoomMessage": "This is the checkroommessage of room 4!",
-      "darkRoom": "false",
-      "objects": [],
-      "connections": {
-        "north": 0,
-        "east": 0,
-        "south": 8,
-        "west": 3,
-        "up": 0,
-        "down": 0
-      }
-    },
-    {
-      "id": 5,
-      "name": "Room 5",
-      "description": "This is the description of room 5!",
-      "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 5!",
-      "alternativeDescription": "",
-      "checkRoomMessage": "This is the checkroommessage of room 5!",
-      "darkRoom": "false",
-      "objects": [],
-      "connections": {
-        "north": 1,
-        "east": 6,
-        "south": 9,
-        "west": 0,
-        "up": 0,
-        "down": 0
-      }
-    },
-    {
-      "id": 6,
-      "name": "Room 6",
-      "description": "This is the description of room 6!",
-      "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 6!",
-      "alternativeDescription": "",
-      "checkRoomMessage": "This is the checkroommessage of room 6!",
-      "darkRoom": "false",
-      "objects": [],
-      "connections": {
-        "north": 2,
-        "east": 7,
-        "south": 10,
-        "west": 5,
-        "up": 0,
-        "down": 0
-      }
-    },
-    {
-      "id": 7,
-      "name": "Room 7",
-      "description": "This is the description of room 7!",
-      "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 7!",
-      "alternativeDescription": "",
-      "checkRoomMessage": "This is the checkroommessage of room 7!",
-      "darkRoom": "false",
-      "objects": [],
-      "connections": {
-        "north": 3,
-        "east": 8,
-        "south": 11,
-        "west": 6,
-        "up": 0,
-        "down": 0
-      }
-    },
-    {
-      "id": 8,
-      "name": "Room 8",
-      "description": "This is the description of room 8!",
-      "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 8!",
-      "alternativeDescription": "",
-      "checkRoomMessage": "This is the checkroommessage of room 8!",
-      "darkRoom": "false",
-      "objects": [],
-      "connections": {
-        "north": 4,
-        "east": 0,
-        "south": 12,
-        "west": 7,
-        "up": 0,
-        "down": 0
-      }
-    },
-    {
-      "id": 9,
-      "name": "Room 9",
-      "description": "This is the description of room 9!",
-      "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 9!",
-      "alternativeDescription": "",
-      "checkRoomMessage": "This is the checkroommessage of room 9!",
-      "darkRoom": "false",
-      "objects": [],
-      "connections": {
-        "north": 5,
-        "east": 10,
-        "south": 13,
-        "west": 0,
-        "up": 0,
-        "down": 0
-      }
-    },
-    {
-      "id": 10,
-      "name": "Room 10",
-      "description": "This is the description of room 10!",
-      "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 10!",
-      "alternativeDescription": "",
-      "checkRoomMessage": "This is the checkroommessage of room 10!",
-      "darkRoom": "false",
-      "objects": [],
-      "connections": {
-        "north": 6,
-        "east": 11,
-        "south": 14,
-        "west": 9,
-        "up": 0,
-        "down": 0
-      }
-    },
-    {
-      "id": 11,
-      "name": "Room 11",
-      "description": "This is the description of room 11!",
-      "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 11!",
-      "alternativeDescription": "",
-      "checkRoomMessage": "This is the checkroommessage of room 11!",
-      "darkRoom": "false",
-      "objects": [],
-      "connections": {
-        "north": 7,
-        "east": 12,
-        "south": 15,
-        "west": 10,
-        "up": 0,
-        "down": 0
-      }
-    },
-    {
-      "id": 12,
-      "name": "Room 12",
-      "description": "This is the description of room 12!",
-      "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 12!",
-      "alternativeDescription": "",
-      "checkRoomMessage": "This is the checkroommessage of room 12!",
-      "darkRoom": "false",
-      "objects": [],
-      "connections": {
-        "north": 8,
-        "east": 0,
-        "south": 16,
-        "west": 11,
-        "up": 0,
-        "down": 0
-      }
-    },
-    {
-      "id": 13,
-      "name": "Room 13",
-      "description": "This is the description of room 13!",
-      "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 13!",
-      "alternativeDescription": "",
-      "checkRoomMessage": "This is the checkroommessage of room 13!",
-      "darkRoom": "false",
-      "objects": [],
-      "connections": {
-        "north": 9,
-        "east": 14,
-        "south": 0,
-        "west": 0,
-        "up": 0,
-        "down": 0
-      }
-    },
-    {
-      "id": 14,
-      "name": "Room 14",
-      "description": "This is the description of room 14!",
-      "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 14!",
-      "alternativeDescription": "",
-      "checkRoomMessage": "This is the checkroommessage of room 14!",
-      "darkRoom": "false",
-      "objects": [],
-      "connections": {
-        "north": 10,
-        "east": 15,
-        "south": 0,
-        "west": 13,
-        "up": 0,
-        "down": 0
-      }
-    },
-    {
-      "id": 15,
-      "name": "Room 15",
-      "description": "This is the description of room 15!",
-      "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 15!",
-      "alternativeDescription": "",
-      "checkRoomMessage": "This is the checkroommessage of room 15!",
-      "darkRoom": "false",
-      "objects": [],
-      "connections": {
-        "north": 11,
-        "east": 16,
-        "south": 0,
-        "west": 14,
-        "up": 0,
-        "down": 0
-      }
-    },
-    {
-      "id": 16,
-      "name": "Room 16",
-      "description": "This is the description of room 16!",
-      "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 16!",
-      "alternativeDescription": "",
-      "checkRoomMessage": "This is the checkroommessage of room 16!",
-      "darkRoom": "false",
-      "objects": [],
-      "connections": {
-        "north": 12,
-        "east": 0,
-        "south": 0,
-        "west": 15,
-        "up": 0,
-        "down": 0
-      }
-    }
-  ]
+    "mapName": "level-11",
+    "rooms": [
+        {
+            "id": 91,
+            "name": "Room 1",
+            "description": "This is the description of room 1!",
+            "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 1!",
+            "alternativeDescription": "",
+            "checkRoomMessage": "This is the checkroommessage of room 1!",
+            "darkRoom": "false",
+            "objects": [],
+            "connections": {
+                "north": 0,
+                "east": 92,
+                "south": 95,
+                "west": 0,
+                "up": 0,
+                "down": 0
+            }
+        },
+        {
+            "id": 92,
+            "name": "Room 2",
+            "description": "This is the description of room 2!",
+            "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 2!",
+            "alternativeDescription": "",
+            "checkRoomMessage": "This is the checkroommessage of room 2!",
+            "darkRoom": "false",
+            "objects": [],
+            "connections": {
+                "north": 0,
+                "east": 93,
+                "south": 96,
+                "west": 91,
+                "up": 0,
+                "down": 0
+            }
+        },
+        {
+            "id": 93,
+            "name": "Room 3",
+            "description": "This is the description of room 3!",
+            "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 3!",
+            "alternativeDescription": "",
+            "checkRoomMessage": "This is the checkroommessage of room 3!",
+            "darkRoom": "false",
+            "objects": [],
+            "connections": {
+                "north": 0,
+                "east": 94,
+                "south": 97,
+                "west": 92,
+                "up": 0,
+                "down": 0
+            }
+        },
+        {
+            "id": 94,
+            "name": "Room 4",
+            "description": "This is the description of room 4!",
+            "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 4!",
+            "alternativeDescription": "",
+            "checkRoomMessage": "This is the checkroommessage of room 4!",
+            "darkRoom": "false",
+            "objects": [],
+            "connections": {
+                "north": 0,
+                "east": 0,
+                "south": 98,
+                "west": 93,
+                "up": 0,
+                "down": 0
+            }
+        },
+        {
+            "id": 95,
+            "name": "Room 5",
+            "description": "This is the description of room 5!",
+            "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 5!",
+            "alternativeDescription": "",
+            "checkRoomMessage": "This is the checkroommessage of room 5!",
+            "darkRoom": "false",
+            "objects": [],
+            "connections": {
+                "north": 91,
+                "east": 96,
+                "south": 99,
+                "west": 0,
+                "up": 0,
+                "down": 0
+            }
+        },
+        {
+            "id": 96,
+            "name": "Room 6",
+            "description": "This is the description of room 6!",
+            "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 6!",
+            "alternativeDescription": "",
+            "checkRoomMessage": "This is the checkroommessage of room 6!",
+            "darkRoom": "false",
+            "objects": [],
+            "connections": {
+                "north": 92,
+                "east": 97,
+                "south": 100,
+                "west": 95,
+                "up": 0,
+                "down": 0
+            }
+        },
+        {
+            "id": 97,
+            "name": "Room 7",
+            "description": "This is the description of room 7!",
+            "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 7!",
+            "alternativeDescription": "",
+            "checkRoomMessage": "This is the checkroommessage of room 7!",
+            "darkRoom": "false",
+            "objects": [],
+            "connections": {
+                "north": 93,
+                "east": 98,
+                "south": 101,
+                "west": 96,
+                "up": 0,
+                "down": 0
+            }
+        },
+        {
+            "id": 98,
+            "name": "Room 8",
+            "description": "This is the description of room 8!",
+            "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 8!",
+            "alternativeDescription": "",
+            "checkRoomMessage": "This is the checkroommessage of room 8!",
+            "darkRoom": "false",
+            "objects": [],
+            "connections": {
+                "north": 94,
+                "east": 0,
+                "south": 102,
+                "west": 97,
+                "up": 0,
+                "down": 0
+            }
+        },
+        {
+            "id": 99,
+            "name": "Room 9",
+            "description": "This is the description of room 9!",
+            "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 9!",
+            "alternativeDescription": "",
+            "checkRoomMessage": "This is the checkroommessage of room 9!",
+            "darkRoom": "false",
+            "objects": [],
+            "connections": {
+                "north": 95,
+                "east": 100,
+                "south": 103,
+                "west": 0,
+                "up": 0,
+                "down": 0
+            }
+        },
+        {
+            "id": 100,
+            "name": "Room 10",
+            "description": "This is the description of room 10!",
+            "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 10!",
+            "alternativeDescription": "",
+            "checkRoomMessage": "This is the checkroommessage of room 10!",
+            "darkRoom": "false",
+            "objects": [],
+            "connections": {
+                "north": 96,
+                "east": 101,
+                "south": 104,
+                "west": 99,
+                "up": 0,
+                "down": 0
+            }
+        },
+        {
+            "id": 101,
+            "name": "Room 11",
+            "description": "This is the description of room 11!",
+            "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 11!",
+            "alternativeDescription": "",
+            "checkRoomMessage": "This is the checkroommessage of room 11!",
+            "darkRoom": "false",
+            "objects": [],
+            "connections": {
+                "north": 97,
+                "east": 102,
+                "south": 105,
+                "west": 100,
+                "up": 0,
+                "down": 0
+            }
+        },
+        {
+            "id": 102,
+            "name": "Room 12",
+            "description": "This is the description of room 12!",
+            "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 12!",
+            "alternativeDescription": "",
+            "checkRoomMessage": "This is the checkroommessage of room 12!",
+            "darkRoom": "false",
+            "objects": [],
+            "connections": {
+                "north": 98,
+                "east": 0,
+                "south": 106,
+                "west": 101,
+                "up": 0,
+                "down": 0
+            }
+        },
+        {
+            "id": 103,
+            "name": "Room 13",
+            "description": "This is the description of room 13!",
+            "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 13!",
+            "alternativeDescription": "",
+            "checkRoomMessage": "This is the checkroommessage of room 13!",
+            "darkRoom": "false",
+            "objects": [],
+            "connections": {
+                "north": 99,
+                "east": 104,
+                "south": 0,
+                "west": 0,
+                "up": 0,
+                "down": 0
+            }
+        },
+        {
+            "id": 104,
+            "name": "Room 14",
+            "description": "This is the description of room 14!",
+            "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 14!",
+            "alternativeDescription": "",
+            "checkRoomMessage": "This is the checkroommessage of room 14!",
+            "darkRoom": "false",
+            "objects": [],
+            "connections": {
+                "north": 100,
+                "east": 105,
+                "south": 0,
+                "west": 103,
+                "up": 0,
+                "down": 0
+            }
+        },
+        {
+            "id": 105,
+            "name": "Room 15",
+            "description": "This is the description of room 15!",
+            "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 15!",
+            "alternativeDescription": "",
+            "checkRoomMessage": "This is the checkroommessage of room 15!",
+            "darkRoom": "false",
+            "objects": [],
+            "connections": {
+                "north": 101,
+                "east": 106,
+                "south": 0,
+                "west": 104,
+                "up": 0,
+                "down": 0
+            }
+        },
+        {
+            "id": 106,
+            "name": "Room 16",
+            "description": "This is the description of room 16!",
+            "alreadyInRoomDescription": "This is the alreadyinroomdescription of room 16!",
+            "alternativeDescription": "",
+            "checkRoomMessage": "This is the checkroommessage of room 16!",
+            "darkRoom": "false",
+            "objects": [],
+            "connections": {
+                "north": 102,
+                "east": 0,
+                "south": 0,
+                "west": 105,
+                "up": 0,
+                "down": 0
+            }
+        }
+    ]
 }
