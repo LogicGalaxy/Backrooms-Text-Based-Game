@@ -1,0 +1,348 @@
+
+{
+  "mapName": "Level 2",
+  "rooms": [
+    {
+      "id": 42,
+      "name": "Room 1 (start room level 2)",
+      "description": "You walk into the room. It's very warm. There are a lot of old pipes on the walls.",
+      "alreadyInRoomDescription": "You're in a room. It's very warm. There are a lot of old pipes on the walls.",
+      "alternativeDescription": "You walk further. You gradualy see the hallway get more pipes on the walls.",
+      "checkRoomMessage": "You check the room. You can't walk back anymore, and can only go north. On the walls are a lot of rusty old pipes. It looks like the pipes are on all the walls. Maybe you need to follow them?",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 43,
+        "east": 0,
+        "south": 0,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 43,
+      "name": "Room 2",
+      "description": "You walk into the room. You hear some fluid going trough the pipes. You don't see much more special in this room.",
+      "alreadyInRoomDescription": "You're in a room. You hear some fluid going trough the pipes. You don't see much more special in this room.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You go to the pipes. You press your ear on one of the pipes. You hear the fluid going trough it, but then you hear a loud CLANG. It's like a metal wrench was going trough the pipes. You look where the pipes are going, and see that they lead east.",
+      "objects": [],
+      "darkRoom": "false",
+      "connections": {
+        "north": 0,
+        "east": 44,
+        "south": 42,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 44,
+      "name": "Room 3",
+      "description": "You walk into an corner. It's a small corner. The pipes seem to have gotten a bit bigger.",
+      "alreadyInRoomDescription": "You're in a small corner. The pipes seem to have gotten a bit bigger.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You look at the bigger pipes. You hear that one is a bit loose. You inspect it. You see that it's a bit rusty and that a screw is loose. Maybe you can take it?",
+      "objects": ["screw"],
+      "darkRoom": "false",
+      "connections": {
+        "north": 45,
+        "east": 0,
+        "south": 0,
+        "west": 43,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 45,
+      "name": "Room 4",
+      "description": "You walk into a small hallway. The hallway has heavy industrial piping, with makes the hallway even smaller.",
+      "alreadyInRoomDescription": "You're in a small hallway. The hallway has heavy industrial piping, with makes the hallway even smaller.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room. You don't see much in the room, except for the heavy industrial piping that is taking up a lot of space in the room.",
+      "objects": [],
+      "darkRoom": "false",
+      "connections": {
+        "north": 46,
+        "east": 0,
+        "south": 44,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 46,
+      "name": "Room 5",
+      "description": "You walk into a corner. It's a very empty corner.",
+      "alreadyInRoomDescription": "You're in a corner. It's a very empty corner.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room. You see a loose metal plate.",
+      "darkRoom": "false",
+      "objects": ["metal plate"],
+      "connections": {
+        "north": 0,
+        "east": 0,
+        "south": 45,
+        "west": 47,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 47,
+      "name": "Room 6",
+      "description": "You walk into a corner. Something in this room feels weird...",
+      "alreadyInRoomDescription": "You're in a corner. Something in this room feels weird...",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You look around the room. You notice that the lights are missplaced and are not allinged right.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 46,
+        "south": 48,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 48,
+      "name": "Room 7",
+      "description": "You walk into a hallway. The pipes lead in three directions.",
+      "alreadyInRoomDescription": "You're in a hallway. The pipes lead in three directions.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room. There's not really much in this room, so you look in the directions where the pipes lead. You see a room with a locked door on your east.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 47,
+        "east": 49,
+        "south": 50,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 49,
+      "name": "Room 8",
+      "description": "You walk into room. You can't really see much, because it's a bit dark.",
+      "alreadyInRoomDescription": "You're in a room. You can't really see much, because it's a bit dark.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room. You see a locked door.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 0,
+        "south": 48,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 50,
+      "name": "Room 9",
+      "description": "You walk into a corner. The corner is dimly lit.",
+      "alreadyInRoomDescription": "You're in a corner. The corner is dimly lit.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room. You see two old diverent collored lights on the walls. It looks like the lights could stop working at any second.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 48,
+        "east": 0,
+        "south": 0,
+        "west": 51,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 51,
+      "name": "Room 10",
+      "description": "You walk into a quadruple intersection. The room seems a bit too empty.",
+      "alreadyInRoomDescription": "You're in a quadruple intersection. The room seems a bit too empty.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room, but you see nothing.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 52,
+        "east": 50,
+        "south": 53,
+        "west": 54,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 52,
+      "name": "Room 11",
+      "description": "You walk into a hallway. The hallway seems to get smaller.",
+      "alreadyInRoomDescription": "You're in a hallway. The hallway seems to get smaller.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room. The hallway seems to be smaller than the other hallways. You infestigate a bit more. You see that it leads to an even smaller hallway.",
+      "darkRoom": "false",
+      "objects": ["wood"],
+      "connections": {
+        "north": 55,
+        "east": 0,
+        "south": 51,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 53,
+      "name": "Room 12",
+      "description": "You walk into a hallway. The pipes lead south.",
+      "alreadyInRoomDescription": "You're in a hallway. The pipes lead south.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room. You dont see alot ecxept for a wet spot on the ground. You look up, and see that a pipe is leaking.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 51,
+        "east": 0,
+        "south": 56,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 54,
+      "name": "Room 13",
+      "description": "You walk into a hallway. There's a pipe laying on the ground.",
+      "alreadyInRoomDescription": "You're in a hallway. There's a pipe laying on the ground.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room. You look around the room, and make sure you don't fall over the pipe. You don't see anything odd than the pipe.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 51,
+        "south": 0,
+        "west": 57,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 55,
+      "name": "Room 14",
+      "description": "You walk into the very small hallway. You can barely fit in the hallway.",
+      "alreadyInRoomDescription": "You're in the very small hallway. You can barely fit in the hallway.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You try to check the room. You try to look left and right. It's hard and painfull to do it, but you manage to look left. You see a creepy face in the walls. It looks like someone made it by using their hands and remove some of the cement over time.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 58,
+        "east": 0,
+        "south": 52,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 56,
+      "name": "Room 15",
+      "description": "You walk into a corner. There's a wet puddle on the ground.",
+      "alreadyInRoomDescription": "You're in a corner. There's a wet puddle on the ground.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You investigate the puddle. It looks like it's some kind of oil.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 53,
+        "east": 59,
+        "south": 0,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 57,
+      "name": "Room 16",
+      "description": "You walk into a corner. There are a lot of pipes on all the walls.",
+      "alreadyInRoomDescription": "You're in a corner. There are a lot of pipes on all the walls.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room. There are a lot of pipes all around the room.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 54,
+        "south": 60,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 58,
+      "name": "Room 17",
+      "description": "You finaly go trough the small hallway, and you walk into a large room. On the east side seems to be a door.",
+      "alreadyInRoomDescription": "You're in a large room. On the east side seems to be a door.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room. You look at the walls. It looks like there is a arrow and the text: 'EXIT' written on the wall with blood. You go over to the door. It looks like it's unlocked.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 0,
+        "south": 55,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 59,
+      "name": "Room 18",
+      "description": "You walk into a large room. On the east side seems to be a door.",
+      "alreadyInRoomDescription": "You're in a large room. On the east side seems to be a door.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You check the room. You see an exit sign above the door. You look closer at the door, and see that the door is unlocked.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 0,
+        "east": 0,
+        "south": 0,
+        "west": 56,
+        "up": 0,
+        "down": 0
+      }
+    },
+    {
+      "id": 60,
+      "name": "Room 19",
+      "description": "You walk into a large room. You see some arrows that are sketched on the walls that are pointing to a door.",
+      "alreadyInRoomDescription": "you're in a large room. You see some arrows that are sketched on the walls that are pointing to a door.",
+      "alternativeDescription": "",
+      "checkRoomMessage": "You investigate the door. You try to go to the door, but the door is barricated.",
+      "darkRoom": "false",
+      "objects": [],
+      "connections": {
+        "north": 57,
+        "east": 0,
+        "south": 0,
+        "west": 0,
+        "up": 0,
+        "down": 0
+      }
+    }
+  ]
+}
